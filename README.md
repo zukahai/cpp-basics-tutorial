@@ -1,2 +1,18 @@
-# cpp-basics-tutorial
-A comprehensive guide to learning the basics of C++ programming. This repository includes tutorials, code examples, and exercises to help beginners get started with C++
+
+# Lộ trinh học C++ cơ bản cho người mới bắt đầu
+
+
+- Cấu trúc chương trình C++
+- Các sử dụng cout
+- Các kiểu dữ liệu trong C++
+- Các toán tử trong C++
+- Cách sử dụng cin
+- Câu lệnh điều kiện if
+- Câu lệnh điều kiện if else
+- Câu lệnh điều kiện switch case
+- Vòng lặp for
+- Vòng lặp while
+- Vòng lặp do while
+- Mang trong C++
+- Chuỗi trong C++
+- Hàm trong C++
