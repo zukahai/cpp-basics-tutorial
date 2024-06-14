@@ -1,5 +1,7 @@
 
-# Lộ trinh học C++ cơ bản cho người mới bắt đầu
+# Lộ trình học C++ cơ bản cho người mới bắt đầu
+
+Dưới đây là lộ trình học C++ cơ bản cho người mới bắt đầu. Lộ trình này sẽ giúp các em nắm vững kiến thức cơ bản về ngôn ngữ lập trình C++.
 
 
 - Cấu trúc chương trình C++
