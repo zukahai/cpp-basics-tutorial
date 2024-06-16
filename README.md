@@ -17,4 +17,4 @@ Dưới đây là lộ trình học C++ cơ bản cho người mới bắt đầ
 - Vòng lặp do while
 - Mảng trong C++
 - Chuỗi trong C++
-- Hàm trong C++
+- Hàm trong C++ 
