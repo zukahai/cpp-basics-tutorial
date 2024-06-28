@@ -374,6 +374,8 @@ Nhập vào số nguyên dương `n`, kiểm tra xem `n` có phải là số ngu
 
 **Số nguyên tố** là số nguyên dương lớn hơn 1 và chỉ chia hết cho 1 và chính nó.
 
+**Gợi ý**: Số nguyên tố chỉ chia hết cho 1 và chính nó, nghĩa là nó có đúng 2 ước số.
+
 Ví dụ:
 
 - Với `n = 6` thì in ra `6 không phải là số nguyên tố`
