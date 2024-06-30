@@ -1,4 +1,4 @@
-# Ôn tập các vòng lặp và câu lệnh điều kiện
+# Ôn tập các vòng lặp và câu lệnh điều kiện 
 
 ## Bài 1. Kiểm tra chia hết cho 3
 
