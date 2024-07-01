@@ -382,6 +382,28 @@ Ví dụ:
 - Với `n = 7` thì in ra `7 là số nguyên tố`
 - Với `n = 9` thì in ra `9 không phải là số nguyên tố`
 
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int dem = 0;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+        if (n % i == 0)
+        {
+            dem += 1;
+        }
+    if (dem == 2)
+        cout << n << "la so nguyen to";
+    else
+        cout << n << "khong phai la so nguyen to";
+}
+
 
 
 
