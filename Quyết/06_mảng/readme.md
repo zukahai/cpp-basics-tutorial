@@ -87,6 +87,25 @@ Ví dụ:
 1 2 3 4 5
 ```
 
+Bài là của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = 0; i < n; i++)
+        cout << a[i] << " ";
+    
+}
+```
+
 ### Bài 2. In mảng ngược
 
 Viết chương trình nhập vào một số nguyên `n` và một mảng `a` gồm `n` phần tử. In ra màn hình mảng `a` theo thứ tự ngược lại.
@@ -104,6 +123,27 @@ Ví dụ:
 
 ```
 5 4 3 2 1
+```
+
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = n - 1; i >= 0; i--)
+        cout << a[i] << " ";
+    
+}
+
+// 0 1 2 3 ... n - 1
 ```
 
 ### Bài 3. Phần tử đầu tiên và cuối cùng
@@ -125,6 +165,25 @@ Ví dụ:
 1 5
 ```
 
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    cout << a[0] << " " << a[n - 1];
+    
+}
+// 0 1 2 3 ... n - 1
+```
+
 ### Bài 4. Tính tổng các phần tử trong mảng
 
 Viết chương trình nhập vào một số nguyên `n` và một mảng `a` gồm `n` phần tử. Tính tổng các phần tử trong mảng `a` và in ra màn hình.
@@ -142,6 +201,29 @@ Ví dụ:
 
 ```
 10
+```
+
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    int tong = 0;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = 0; i < n; i++)
+        tong += a[i];
+    cout << tong;
+        
+}
+// i: Chỉ số, ví trí
+// a[i]: phần tử, giá trị tại chỉ số i
 ```
 
 ### Bài 5. Phần tử chẵn
@@ -163,6 +245,30 @@ Ví dụ:
 2 4
 ```
 
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = 0; i < n; i++)
+        if (a[i] % 2 ==0)
+        {
+            cout << a[i] << " ";
+        }
+        
+}
+// i: Chỉ số, ví trí
+// a[i]: phần tử, giá trị tại chỉ số i
+```
+
 ### Bài 6. Phần tử chẵn đầu tiên
 
 Viết chương trình nhập vào một số nguyên `n` và một mảng `a` gồm `n` phần tử. In ra màn hình phần tử chẵn đầu tiên trong mảng `a`. Đầu vào đảm bảo mảng `a` có ít nhất một phần tử chẵn.
@@ -182,6 +288,31 @@ Ví dụ:
 2
 ```
 
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = 0; i < n; i++)
+        if (a[i] % 2 ==0)
+        {
+            cout << a[i] << " ";
+            break;
+        }
+        
+}
+// i: Chỉ số, ví trí
+// a[i]: phần tử, giá trị tại chỉ số i
+```
+
 ### Bài 7. Phần tử chẵn cuối cùng
 
 Viết chương trình nhập vào một số nguyên `n` và một mảng `a` gồm `n` phần tử. In ra màn hình phần tử chẵn cuối cùng trong mảng `a`. Đầu vào đảm bảo mảng `a` có ít nhất một phần tử chẵn.
@@ -199,6 +330,31 @@ Ví dụ:
 
 ```
 4
+```
+
+Bài làm của Quyết:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    int a[1000];
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = n - 1; i >= 0; i--)
+        if (a[i] % 2 ==0)
+        {
+            cout << a[i] << " ";
+            break;
+        }
+        
+}
+// i: Chỉ số, ví trí
+// a[i]: phần tử, giá trị tại chỉ số i
 ```
 
 ### Bài 8. Phần tử lớn nhất
