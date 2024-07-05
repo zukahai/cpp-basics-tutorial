@@ -311,3 +311,19 @@ Hello 124 Quyet
 ```
 
 Giải thích: 1 + 2 + 4 = 7
+
+## Bài 19: Số từ trong câu
+
+Đếm số từ trong chuỗi s
+
+ **Input:**
+
+ ```
+Xin chao cac ban
+```
+
+**Output**
+
+```
+4
+```
