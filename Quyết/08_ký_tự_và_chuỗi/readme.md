@@ -294,3 +294,20 @@ Le Quyet
 euyet
 ```
 
+## Bài 18: Tổng các ký tự số
+
+Cho chuỗi s, tính tổng các ký tự số trong s
+
+**Input**
+
+```
+Hello 124 Quyet
+```
+
+**Output**
+
+```
+7
+```
+
+Giải thích: 1 + 2 + 4 = 7
