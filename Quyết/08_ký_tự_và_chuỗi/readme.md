@@ -277,3 +277,20 @@ Hello Quyet
 ```
 teyuQ olleH
 ```
+
+## Bài 17: Ký tự in thường
+
+Cho chuỗi s, in ra các ký tự in thường trong s
+
+**Input:**
+
+```
+Le Quyet
+```
+
+**Output:**
+
+```
+euyet
+```
+
