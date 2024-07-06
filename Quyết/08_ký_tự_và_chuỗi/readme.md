@@ -38,6 +38,20 @@ A
 A
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << ch
+}
+```
+
 ## Bài 2: Ví trí ký tự
 
 Nhập vào một ký tự và in ra vị trí của ký tự đó trong bảng mã ASCII.
@@ -53,6 +67,21 @@ A
 ```
 65
 ```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << (int)ch;
+}
+```
+
 
 ## Bài 3: Ký tự in hoa
 
@@ -70,6 +99,21 @@ a
 A
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << (char)(ch - 32);
+}
+```
+
+
 ## Bài 4: Ký tự in thường
 
 Nhập vào một ký tự in hoa và in ra ký tự in thường tương ứng.
@@ -84,6 +128,21 @@ A
 
 ```
 a
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << (char)(ch + 32);
+    
+}
 ```
 
 ## Bài 5: Ký tự tiếp theo
@@ -102,6 +161,20 @@ A
 B
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << (char)(ch + 1);
+}
+```
+
 ## Bài 6: Ký tự trước đó
 
 Nhập vào một ký tự và in ra ký tự trước đó trong bảng mã ASCII.
@@ -117,6 +190,21 @@ A
 ```
 @
 ```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    cout << (char)(ch - 1);
+}
+```
+
 
 ## Bài 7: Kiểm tra ký tự in hoa
 
@@ -134,6 +222,23 @@ A
 True
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    if (ch >= 65 && ch <= 90)
+        cout << "true";
+    else
+        cout << "false";
+}
+```
+
 ## Bài 8: Kiểm tra ký tự số
 
 Nhập vào một ký tự và kiểm tra xem ký tự đó có phải là ký tự số hay không. In ra `True` nếu là ký tự số, ngược lại in ra `False`.
@@ -148,6 +253,23 @@ Nhập vào một ký tự và kiểm tra xem ký tự đó có phải là ký t
 
 ```
 True
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cin >> ch;
+    if (ch >= 48 && ch <= 57)
+        cout << "true";
+    else
+        cout << "false";
+}
 ```
 
 
@@ -167,6 +289,20 @@ Hello Quyet
 Hello Quyet
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    cout << s;
+}
+```
+
 ## Bài 10: Độ dài chuỗi
 
 Nhập vào một chuỗi và in ra độ dài của chuỗi đó.
@@ -181,6 +317,20 @@ Hello Quyet
 
 ```
 11
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    cout << s.length();
+}
 ```
 
 ## Bài 11: Ký tự đầu tiên và cuối cùng
@@ -199,6 +349,20 @@ Hello Quyet
 H t
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    cout << s[0] << " " << s[s.length() - 1];
+}
+```
+
 ## Bài 12: Số lượng ký tự in hoa
 
 Nhập vào một chuỗi và in ra số lượng ký tự in hoa trong chuỗi đó.
@@ -212,6 +376,26 @@ Hello Quyet
 
 ```
 2
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int dem = 0;
+    string s;
+    getline(cin, s);
+    for (int i = 0; i <= s.length()- 1; i++)
+        if (s[i] >= 65 && s[i]<= 90)
+        {
+            dem += 1;
+        }
+    cout << dem;
+}
 ```
 
 ## Bài 13: Số lượng ký tự số
@@ -230,6 +414,26 @@ Hello 123 Quyet
 3
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int dem = 0;
+    string s;
+    getline(cin, s);
+    for (int i = 0; i <= s.length()- 1; i++)
+        if (s[i] >= 48 && s[i]<= 57)
+        {
+            dem += 1;
+        }
+    cout << dem;
+}
+```
+
 ## Bài 14: In hoa chuỗi
 
 Nhập vào một chuỗi và in ra chuỗi in hoa tương ứng.
@@ -244,6 +448,24 @@ Hello Quyet
 
 ```
 HELLO QUYET
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    for (int i = 0; i <= s.length()- 1; i++)
+        if (s[i] >= 97 && s[i] <= 122)
+        {
+            cout << s[i];
+        }
+}
 ```
 
 ## Bài 15: In thường chuỗi
@@ -262,6 +484,28 @@ Hello Quyet
 hello quyet
 ```
 
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    for (int i = 0; i <= s.length()- 1; i++)
+        if (s[i] >= 97 && s[i] <= 122)
+        {
+            
+            cout << (char)(s[i] - 32);
+        }
+        else
+            cout << s[i];
+        
+}
+```
+
 ## Bài 16: Đảo chuỗi
 
 Nhập vào một chuỗi và in ra chuỗi đảo ngược.
@@ -277,3 +521,131 @@ Hello Quyet
 ```
 teyuQ olleH
 ```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    for (int i = 0; i <= s.length()- 1; i++)
+        if (s[i] >= 65 && s[i] <= 90)
+        {
+            
+            cout << (char)(s[i] + 32);
+        }
+        else
+            cout << s[i];
+}
+```
+
+## Bài 17: Ký tự in thường
+
+Cho chuỗi s, in ra các ký tự in thường trong s
+
+**Input:**
+
+```
+Le Quyet
+```
+
+**Output:**
+
+```
+euyet
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string s;
+    getline(cin, s);
+    for (int i = s.length()-1; i > 0; i--)
+        cout << s[i];
+}
+```
+
+## Bài 18: Tổng các ký tự số
+
+Cho chuỗi s, tính tổng các ký tự số trong s
+
+**Input**
+
+```
+Hello 124 Quyet
+```
+
+**Output**
+
+```
+7
+```
+
+Giải thích: 1 + 2 + 4 = 7
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int tong = 0;
+    string s;
+    getline(cin, s);
+    for (int i = 0; i <= s.length(); i++)
+        if (s[i] >= 48 && s[i] <= 57)
+        {
+            tong += s[i]-48;
+        }
+    cout << tong;
+}
+```
+
+## Bài 19: Số từ trong câu
+
+Đếm số từ trong chuỗi s
+
+ **Input:**
+
+ ```
+Xin chao cac ban
+```
+
+**Output**
+
+```
+4
+```
+
+**Bài làm của Quyết**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int dem = 0;
+    string s;
+    getline(cin, s);
+    for (int i = 0; i < s.length(); i++)
+        if (s[i] == 32)
+        {
+            dem += 1;
+        }
+    cout << dem + 1;
+    
+}
+```
+ 
