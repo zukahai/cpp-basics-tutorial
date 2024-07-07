@@ -1,4 +1,4 @@
-**Lớp Học C++ Cơ Bản**
+# Lớp Học C++ Cơ Bản
 
 **Đối Tượng:**
 - Tân sinh viên ngành Công nghệ Thông tin: Giúp các bạn mới bước chân vào đại học có nền tảng lập trình vững chắc, chuẩn bị tốt cho các môn học chuyên ngành.
