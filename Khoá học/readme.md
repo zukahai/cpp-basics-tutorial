@@ -1,4 +1,4 @@
-# Chiêu sinh lớp Học C++ Cơ Bản
+# Lớp học C++ Cơ Bản
 
 **Đối Tượng:**
 - Tân sinh viên ngành Công nghệ Thông tin: Giúp các bạn mới bước chân vào đại học có nền tảng lập trình vững chắc, chuẩn bị tốt cho các môn học chuyên ngành.
@@ -15,13 +15,13 @@
 - Bài tập thực hành trên hệ thống Online Judge (OJ)
 
 **Học Phí:**
-- 800.000 đồng cho 10 buổi (2 giờ/buổi)
+- 80K cho 1 buổi (2 giờ/buổi)
 
 **Hình Thức Học:**
-- Lớp học Online
+- Học theo lớp nhiều người và online
 
 **Thời Gian Học:**
-- 2 giờ/buổi, lịch học cụ thể sẽ được thông báo khi đăng ký (Dự kiến bắt đầu giữa tháng 7)
+- 10 buổi, 2 giờ/buổi, lịch học cụ thể sẽ được thông báo khi đăng ký
 
 **Thông Tin Giảng Viên:**
 - **Phan Đức Hải**: Gần 10 năm kinh nghiệm thuật toán
