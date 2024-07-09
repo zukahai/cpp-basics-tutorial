@@ -2,7 +2,7 @@
 
 **Đối Tượng:**
 - Tân sinh viên ngành Công nghệ Thông tin: Giúp các bạn mới bước chân vào đại học có nền tảng lập trình vững chắc, chuẩn bị tốt cho các môn học chuyên ngành.
-- Học sinh mong muốn thi học sinh giỏi Tin học: Trang bị kiến thức và kỹ năng cần thiết để tham gia các kỳ thi học sinh giỏi, đạt thành tích cao.
+- Học sinh mong muốn thi học sinh giỏi Tin học: Trang bị kiến thức và kỹ năng cần thiết để tham gia các kỳ thi học sinh giỏi, đạt thành tích cao. 
 
 **Mục Đích:**
 - Xây dựng nền tảng vững chắc về ngôn ngữ C++: Giúp học viên nắm vững cú pháp và cấu trúc cơ bản của C++, từ đó tự tin lập trình và giải quyết các bài toán thuật toán.
