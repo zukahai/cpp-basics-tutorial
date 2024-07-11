@@ -48,12 +48,30 @@ cout << a;
 ```
 
 ## Thực hành
-
-Em tạm thời thực hành trên web: https://www.onlinegdb.com/online_c++_compiler
+Em thực hành xong gửi ảnh qua zalo cho anh nha.
 
 ### Bài 1: In ra màn hình dòng chữ "Hello world!"
 
-### Bài 2: Các phép tính cơ bản
+### Bài 2: Giá trị a và 2a
+
+Nhập vào số nguyên `a`, in ra màn hình giá trị của `a` và `2 * a`.
+
+Ví dụ: nhập a = 5, kết quả:
+
+```
+a = 5
+2 * a = 10
+```
+
+Ví dụ: nhập a = 3, kết quả:
+
+```
+a = 3
+2 * a = 6
+```
+
+
+### Bài 3: Các phép tính cơ bản
 
 Nhập vào 2 số nguyên `a` và `b`, in ra màn hình kết quả của các phép tính cơ bản: `a + b`, `a - b`, `a * b`, `a / b`, `a % b`.
 
@@ -67,7 +85,7 @@ a / b = 1
 a % b = 2
 ```
 
-### Bài 3: Các phép tính cơ bản (Nâng cao)
+### Bài 4: Các phép tính cơ bản (Nâng cao)
 
 Nhập vào 2 số nguyên `a` và `b`, in ra màn hình kết quả của các phép tính cơ bản: `a + b`, `a - b`, `a * b`, `a / b`, `a % b`.
 
@@ -80,3 +98,9 @@ Ví dụ: nhập a = 5, b = 3, kết quả:
 5 / 3 = 1
 5 % 3 = 2
 ```
+
+
+
+
+
+
