@@ -184,3 +184,60 @@ Nhập vào số nguyên `n`, in ra màn hình tam giác vuông cân có cạnh 
 **
 ***
 ```
+
+- Ví dụ: Nhập `n = 7`, in ra:
+
+```
+*
+**
+***
+****
+*****
+******
+*******
+```
+
+### Bài 14: In hoa chữ cái
+
+Nhập vào một chữ cái, in ra màn hình chữ cái đó ở dạng in hoa.
+
+- Ví dụ: Nhập `a`, in ra `A`.
+- Ví dụ: Nhập `b`, in ra `B`.
+
+### Bài 15: In thường chữ cái
+
+Nhập vào một chữ cái, in ra màn hình chữ cái đó ở dạng in thường.
+
+- Ví dụ: Nhập `A`, in ra `a`.
+- Ví dụ: Nhập `B`, in ra `b`.
+
+### Bài 16: In ra chữ cái tiếp theo
+
+Nhập vào một chữ cái in thường, in ra màn hình chữ cái tiếp theo của chữ cái đó.
+Nếu chữ cái là `z` thì in ra `a`.
+
+- Ví dụ: Nhập `a`, in ra `b`.
+- Ví dụ: Nhập `b`, in ra `c`.
+- Ví dụ: Nhập `z`, in ra `a`.
+
+### Bài 17: In ra chữ cái trước đó
+
+Nhập vào một chữ cái in thường, in ra màn hình chữ cái trước đó của chữ cái đó.
+Nếu chữ cái là `a` thì in ra `z`.
+
+- Ví dụ: Nhập `a`, in ra `z`.
+- Ví dụ: Nhập `b`, in ra `a`.
+- Ví dụ: Nhập `z`, in ra `y`.
+
+### Bài 18: In ra chữ cái tiếp theo (Nâng cao)
+
+Nhập vào một chữ cái, in ra màn hình chữ cái tiếp theo của chữ cái đó.
+Nếu chữ cái là chữ cái in thường thì in ra chữ cái tiếp theo ở dạng in thường.
+Nếu chữ cái là chữ cái in hoa thì in ra chữ cái tiếp theo ở dạng in hoa.
+
+- Ví dụ: Nhập `a`, in ra `b`.
+- Ví dụ: Nhập `b`, in ra `c`.
+- Ví dụ: Nhập `z`, in ra `a`.
+- Ví dụ: Nhập `A`, in ra `B`.
+- Ví dụ: Nhập `B`, in ra `C`.
+- Ví dụ: Nhập `Z`, in ra `A`.
