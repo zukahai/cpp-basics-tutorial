@@ -1,4 +1,4 @@
-# Buổi 2 Câu lệnh điều kiện và vòng lặp for
+# Buổi 2 Câu lệnh điều kiện và switch case
 
 ## Đánh giá chung buổi học
 

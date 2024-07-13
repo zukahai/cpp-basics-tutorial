@@ -3,35 +3,29 @@
 using namespace std;
 
 int main() {
-	
-	int a = 2;
-	switch (a) {
-		case 1: {
-			cout << "Thuc hien khoi lenh 1";
-			break;
-		}
-		case 2: {
-			cout << "Thuc hien khoi lenh 2";
-			break;
-		}
-		case 3: {
-			cout << "Thuc hien khoi lenh 3";
-			break;
-		}
-		default: {
-			"Khoi lenh mac dinh";
-			break;
+	int a = 10;
+	if (a == 1) {
+		cout << "Khoi lenh 1";
+	} else {
+		if (a == 2) {
+			cout << "Khoi lenh 2";	
+		} else {
+			if (a == 3) {
+				cout << "Khoi lenh 3";
+			}	
+			else {
+				cout << "Khong thuc hien khoi lenh nao";
+			}	
 		}
 	}
+		
 	
 	
-	if (a > 10 || a < 5) {
-		// dieu kien dung
-	}
-	
-	
+		
 }
 
-
-
-
+// >
+// <
+// ==
+// >=
+// <=
