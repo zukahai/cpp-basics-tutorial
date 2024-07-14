@@ -16,16 +16,11 @@ In ra màn hình các phép toán cơ bản giữa `a` và `b` (xem ở ví dụ
 
 | Input | Output                  |
 |-------|-------------------------|
-| 5     | a + b = 5               |
-| 3     | a - b = 2               |
-|       | a * b = 15              |
-|       | a / b = 1 |
+| 5<br>3    | a + b = 5<br>a - b = 2<br> a * b = 15<br> a / b = 1               |
+
 
 ##### Ví dụ 2:
 
 | Input | Output                  |
 |-------|-------------------------|
-| 10    | a + b = 10              |
-| 2     | a - b = 8               |
-|       | a * b = 20              |
-|       | a / b = 5               |
+| 10<br>2    | a + b = 10<br> a - b = 8<br> a * b = 20<br> a / b = 5               |
