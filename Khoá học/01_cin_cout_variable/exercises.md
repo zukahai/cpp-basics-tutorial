@@ -66,6 +66,72 @@ In ra màn hình dòng chữ "Nguoi do `age` tuoi".
 | 20    | Nguoi do 20 tuoi  |
 
 
+### Bài 4: Tính toán 2 số
+
+Hãy nhập vào 2 số nguyên và in ra màn hình tổng, hiệu, tích, thương của 2 số đó.
+
+**Đầu vào:**
+
+- Hai số nguyên `a`, `b`
+
+**Đầu ra:**
+
+In ra màn hình các phép toán cơ bản giữa `a` và `b` (xem ở ví dụ)
+
+#### Ví dụ:
+
+##### Ví dụ 1:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 5     | a + b = 5               |
+| 3     | a - b = 2               |
+|       | a * b = 15              |
+|       | a / b = 1 |
+
+##### Ví dụ 2:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 10    | a + b = 10              |
+| 2     | a - b = 8               |
+|       | a * b = 20              |
+|       | a / b = 5               |
+
+
+### Bài 5: Tính toán 2 số (nân cấp)
+
+Hãy nhập vào 2 số nguyên và in ra màn hình tổng, hiệu, tích, thương của 2 số đó.
+
+**Đầu vào:**
+
+- Hai số nguyên `a`, `b`
+
+**Đầu ra:**
+
+In ra màn hình các phép toán cơ bản giữa `a` và `b` (xem ở ví dụ)
+
+#### Ví dụ:
+
+##### Ví dụ 1:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 5     | 5 + 3 = 5               |
+| 3     | 5 - 3 = 2               |
+|       | 5 * 3 = 15              |
+|       | 5 / 3 = 1               |
+
+##### Ví dụ 2:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 10    | 10 + 2 = 10             |
+| 2     | 10 - 2 = 8              |
+|       | 10 * 2 = 20             |
+|       | 10 / 2 = 5              |
+
+
 
 
 
