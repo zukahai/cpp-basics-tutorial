@@ -8,7 +8,7 @@ Truy cập trang web: https://tleoj.edu.vn/accounts/register/
 
 ![alt text](image-1.png)
 
-- Phan **Tên đăng nhập** là tên đăng nhập của bạn, viết bằng chữ thương không dấu, không chứa khoảng trắng, không chứa ký tự đặc biệt. Ví dụ: `NguyenVanA` hoặc `nguyenvana` hoặc `nguyenvan_a` hoặc `nguyenvan_a123`.
+- Phần **Tên đăng nhập** là tên đăng nhập của bạn, viết bằng chữ thương không dấu, không chứa khoảng trắng, không chứa ký tự đặc biệt. Ví dụ: `NguyenVanA` hoặc `nguyenvana` hoặc `nguyenvan_a` hoặc `nguyenvan_a123`.
 - Phần **Email** là email của bạn
 - Phần **Mật khẩu** là mật khẩu của bạn
 - Phần **Nhập lại mật khẩu** là nhập lại mật khẩu của bạn.
