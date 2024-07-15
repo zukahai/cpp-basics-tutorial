@@ -4,7 +4,7 @@ Mỗi buổi học mình sẽ cung cấp cho các bạn một link để truy c�
 
 ## Cách tham gia vào buổi học
 
-Saun khi click vào link, các bạn sẽ thấy một trang như sau:
+Sau khi click vào link, các bạn sẽ thấy một trang như sau:
 
 ![alt text](image.png)
 
@@ -20,7 +20,7 @@ Các bạn nên tắt tiếng và tắt camera để tránh gây nhiễu cho ng�
 
 Khi muốn hỏi bài, các bạn click vào biểu tượng `Raise hand` (biểu tượng tay giơ lên) để cho mình biết
 
-## Các chia sẻ màn hình (Quan trọng)
+## Cách chia sẻ màn hình (Quan trọng)
 
 Khi mình chia sẻ màn hình, các bạn sẽ thấy màn hình của mình như sau:
 
