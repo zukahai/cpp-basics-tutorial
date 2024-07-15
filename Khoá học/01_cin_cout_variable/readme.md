@@ -23,8 +23,6 @@ Trong đó:
 ### Các kiểu dữ liệu cơ bản
 
 - `int`: Kiểu số nguyên.
-- `float`: Kiểu số thực.
-- `string`: Kiểu chuỗi.
 
 ### Các toán tử cơ bản
 
@@ -46,3 +44,33 @@ int a;
 cin >> a;
 cout << a;
 ```
+
+## in chuỗi kèm biến
+
+### Ví dụ 1
+
+Cho a = 5, in ra màn hình dòng chữ "Gia tri cua a la 5".
+
+Mình sẽ phân tích "Gia tri cua a la 5" thành 2 phần:
+
+- "Gia tri cua a la ": chuỗi cố định.
+- a: biến.
+
+Để in ra màn hình dòng chữ "Gia tri cua a la 5", ta sẽ viết như sau:
+
+```cpp
+int a = 5;
+cout << "Gia tri cua a la ";
+cout << a;
+```
+
+### Ví dụ 2
+
+Cho tuoi = 18, in ra màn hình dòng chữ "Nam nay toi 18 tuoi".
+
+Mình sẽ phân tích "Nam nay toi 18 tuoi" thành 3 phần:
+
+- "Nam nay toi ": chuỗi cố định.
+- tuoi: biến.
+- " tuoi": chuỗi cố định.
+
