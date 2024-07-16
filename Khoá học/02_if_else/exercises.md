@@ -172,7 +172,36 @@ Nếu là hình vuông thì in ra `YES`, ngược lại in ra `NO`
 |-------|-------------------------|
 | 10 5  | NO                      |
 
+## Bài 7: Ba cạnh của tam giác
 
+Hãy nhập vào 3 số nguyên dương `a`, `b`, `c`, hãy kiểm tra xem 3 số đó có phải là 3 cạnh của một tam giác hay không.<br>
+Nếu là 3 cạnh của một tam giác thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Ba số nguyên dương `a`, `b`, `c`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu 3 số `a`, `b`, `c` là 3 cạnh của một tam giác, ngược lại in ra `NO`
+
+**Gợi ý:**
+
+- Để 3 số `a`, `b`, `c` là 3 cạnh của một tam giác thì tổng của 2 số bất kỳ phải lớn hơn số còn lại, và 3 số phải lớn hơn 0
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 4 5 8 | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 1 2 4 | NO                      |
 
 
 
