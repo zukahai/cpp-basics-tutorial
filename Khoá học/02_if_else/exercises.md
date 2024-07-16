@@ -114,6 +114,37 @@ Hãy nhập vào 2 số nguyên, tìm và in ra giá trị lớn hơn trong 2 s�
 |-------|-------------------------|
 | 10 5    | 10                      |
 
+## Bài 5: Số có 3 chữ số
+
+Hãy nhập vào một số tự nhiên và kiểm tra xem số đó có phải là số có 3 chữ số hay không.<br>
+Nếu là số có 3 chữ số thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Một số tự nhiên `n`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu `n` là số có 3 chữ số, ngược lại in ra `NO`
+
+**Gợi ý:**
+
+- Số có 3 chữ số là số lớn hơn hoặc bằng 100 và nhỏ hơn 1000
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 249   | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 35    | NO                      |
+
 
 
 
