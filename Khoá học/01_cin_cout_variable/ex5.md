@@ -1,4 +1,4 @@
-### Bài 5: Tính toán 2 số (nân cấp)
+### Bài 5: Tính toán 2 số (nâng cấp)
 
 Hãy nhập vào 2 số nguyên và in ra màn hình tổng, hiệu, tích, thương của 2 số đó.
 
