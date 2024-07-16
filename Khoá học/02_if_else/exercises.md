@@ -145,6 +145,32 @@ Nếu là số có 3 chữ số thì in ra `YES`, ngược lại in ra `NO`
 |-------|-------------------------|
 | 35    | NO                      |
 
+## Bài 6: Hình vuông
+
+Hãy nhập vào 2 số nguyên dương `a`, `b` là chiều dài và chiều rộng của hình chữ nhật, kiểm tra xem hình chữ nhật đó có phải là hình vuông hay không.<br>
+Nếu là hình vuông thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Hai số nguyên dương `a`, `b`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu hình chữ nhật có chiều dài và chiều rộng bằng nhau, ngược lại in ra `NO`
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 5 5   | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 10 5  | NO                      |
 
 
 
