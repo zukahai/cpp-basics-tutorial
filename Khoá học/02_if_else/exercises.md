@@ -26,6 +26,25 @@ Hãy nhập vào một số nguyên và kiểm tra xem số đó có bằng 10 h
 |-------|-------------------------|
 | 5     | 5 khong bang 10         |
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    if (n == 10) {
+        cout << n << " bang 10";
+    } else {
+        cout << n << " khong bang 10";
+    }
+}
+```
+
 ## Bài 2: Kiểm tra số dương
 
 Hãy nhập vào một số nguyên và kiểm tra xem số đó có phải là số dương hay không.<br>
@@ -57,6 +76,26 @@ Nếu là số dương thì in ra `YES`, ngược lại in ra `NO`
 |-------|-------------------------|
 | -5    | NO                      |
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    if (n > 0) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
+
+
 ## Bài 3: Kiểm tra số chẵn lẻ
 
 Hãy nhập vào một số nguyên và kiểm tra xem số đó có phải là số chẵn hay số lẻ.<br>
@@ -86,7 +125,26 @@ Nếu là số chẵn thì in ra `Even`, ngược lại in ra `Odd`
 
 | Input | Output                  |
 |-------|-------------------------|
-| 5     | Odd                     |
+| 5     | Odd    |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    if (n % 2 == 0) {
+        cout << "Even";
+    } else {
+        cout << "Odd";
+    }
+}
+```
 
 ## Bài 4: Số lớn hơn
 
@@ -113,6 +171,26 @@ Hãy nhập vào 2 số nguyên, tìm và in ra giá trị lớn hơn trong 2 s�
 | Input | Output                  |
 |-------|-------------------------|
 | 10 5    | 10                      |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    if (a > b) {
+        cout << a;
+    } else {
+        cout << b;
+    }
+}
+```
+
 
 ## Bài 5: Số có 3 chữ số
 
@@ -145,6 +223,25 @@ Nếu là số có 3 chữ số thì in ra `YES`, ngược lại in ra `NO`
 |-------|-------------------------|
 | 35    | NO                      |
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    if (n >= 100 && n <= 999) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
+
 ## Bài 6: Hình vuông
 
 Hãy nhập vào 2 số nguyên dương `a`, `b` là chiều dài và chiều rộng của hình chữ nhật, kiểm tra xem hình chữ nhật đó có phải là hình vuông hay không.<br>
@@ -171,6 +268,25 @@ Nếu là hình vuông thì in ra `YES`, ngược lại in ra `NO`
 | Input | Output                  |
 |-------|-------------------------|
 | 10 5  | NO                      |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    if (a == b) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
 
 ## Bài 7: Ba cạnh của tam giác
 
@@ -203,5 +319,21 @@ Nếu là 3 cạnh của một tam giác thì in ra `YES`, ngược lại in ra 
 |-------|-------------------------|
 | 1 2 4 | NO                      |
 
+**Bài làm mẫu:**
 
+```cpp
+#include <bits/stdc++.h>
 
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    if (a + b > c && a + c > b && b + c > a) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
