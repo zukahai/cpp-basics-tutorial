@@ -1,4 +1,4 @@
-# Các link quan trọng
+# Các thông tin quan quan trọng trong khoá học C++ căn bản
 
 ## Hướng dẫn
 
