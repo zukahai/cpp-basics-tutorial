@@ -14,3 +14,19 @@
 https://tleoj.edu.vn/contest/hz01
 - Bài giải mẫu [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/blob/main/Khoá%20học/01_cin_cout_variable/exercises.md)
 
+### Buổi 2: Câu lệnh điều kiện
+
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz02
+- Bài giải mẫu [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/blob/main/Khoá%20học/02_if_else/readme.md)
+
+### Buổi 3: Vòng lặp for
+
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz03
+
+- Bài giải mẫu: Sẽ được cập nhật sau
+
+### Buổi 4: Ôn tập vòng lặp for
+- Sẽ cập nhật sau
+
