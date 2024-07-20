@@ -230,3 +230,75 @@ In ra hình tam giác số có chiều cao N
 | Input | Output |
 |-------|--------|
 | 7     | 1 <br> 1 2 <br> 1 2 3 <br> 1 2 3 4 <br> 1 2 3 4 5 <br> 1 2 3 4 5 6 <br> 1 2 3 4 5 6 7 |
+
+## Bài 9: Số lớn nhất
+
+Nhập vào một số N (0 <= N <= 1000). In ra số lớn nhất trong khoảng từ 0 đến N mà chia hết cho 5
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra số lớn nhất trong khoảng từ 0 đến N mà chia hết cho 5
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 7     | 5 |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 123   | 120 |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 1000  | 1000 |
+
+## Ước số chung lớn nhất
+
+Nhập vào 2 số nguyên a và b (1 <= a, b <= 1000). In ra ước số chung lớn nhất của a và b
+
+*Ước số chung lớn nhất của 2 số a và b là số lớn nhất mà a và b đều chia hết*
+
+**Đầu vào:**
+
+- 2 số nguyên a và b (1 <= a, b <= 1000)
+
+**Đầu ra:**
+
+In ra ước số chung lớn nhất của a và b
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 6 9   | 3      |
+
+*6 và 9 đều chia hết cho 3, 3 là ước số chung lớn nhất của 6 và 9*
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 12 18 | 6      |
+
+*12 và 18 đều chia hết cho 6, 6 là ước số chung lớn nhất của 12 và 18*
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 15 25 | 5      |
+
+*15 và 25 đều chia hết cho 5, 5 là ước số chung lớn nhất của 15 và 25*
