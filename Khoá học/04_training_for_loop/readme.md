@@ -1,6 +1,34 @@
 # Ôn tập vào lặp for
 
-## Bài 1: In ra bảng cửa chương 2
+## Bài 1: Giá trị gấp đôi, gấp ba
+
+Nhập vào một số N (1 <= N <= 1000). In ra giá trị gấp đôi và gấp ba của số đó
+
+Từ 1 đến n, hãy in ra giá trị gấp đôi và gấp ba của số đó
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra N dòng, Mỗi dòng gôm 2 số, số thứ nhất là giá trị gấp đôi của số đó, số thứ hai là giá trị gấp ba của số đó
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 3     | 2 3 <br> 4 6 <br> 6 9 |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5     | 2 3 <br> 4 6 <br> 6 9 <br> 8 12 <br> 10 15 |
+
+## Bài 2: In ra bảng cửa chương 2
 
 Viết chương trình in ra bảng cửu chương 2 (xem ví dụ)
 
@@ -28,7 +56,7 @@ Không có
 |-------|--------|
 |       | 2 x 1 = 2 <br> 2 x 2 = 4 <br> 2 x 3 = 6 <br> 2 x 4 = 8 <br> 2 x 5 = 10 <br> 2 x 6 = 12 <br> 2 x 7 = 14 <br> 2 x 8 = 16 <br> 2 x 9 = 18 <br> 2 x 10 = 20 |
 
-## Bài 2: Bảng cửa chương N
+## Bài 3: Bảng cửa chương N
 
 Viết chương trình in ra bảng cửu chương của số N (xem ví dụ)
 
@@ -53,34 +81,6 @@ Bang cửu chương của N
 | Input | Output |
 |-------|--------|
 | 5     | 5 x 1 = 5 <br> 5 x 2 = 10 <br> 5 x 3 = 15 <br> 5 x 4 = 20 <br> 5 x 5 = 25 <br> 5 x 6 = 30 <br> 5 x 7 = 35 <br> 5 x 8 = 40 <br> 5 x 9 = 45 <br> 5 x 10 = 50 |
-
-## Bài 3: Giá trị gấp đôi, gấp ba
-
-Nhập vào một số N (1 <= N <= 1000). In ra giá trị gấp đôi và gấp ba của số đó
-
-Từ 1 đến n, hãy in ra giá trị gấp đôi và gấp ba của số đó
-
-**Đầu vào:**
-
-- Số nguyên N (1 <= N <= 1000)
-
-**Đầu ra:**
-
-In ra N dòng, Mỗi dòng gôm 2 số, số thứ nhất là giá trị gấp đôi của số đó, số thứ hai là giá trị gấp ba của số đó
-
-### Ví dụ
-
-#### Ví dụ 1
-
-| Input | Output |
-|-------|--------|
-| 3     | 2 3 <br> 4 6 <br> 6 9 |
-
-#### Ví dụ 2
-
-| Input | Output |
-|-------|--------|
-| 5     | 2 3 <br> 4 6 <br> 6 9 <br> 8 12 <br> 10 15 |
 
 ## Bài 4 Giá trị hiện tại, bình phương, lập phương
 
