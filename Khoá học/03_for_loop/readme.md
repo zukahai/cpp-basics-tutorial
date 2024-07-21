@@ -130,6 +130,23 @@ Các số từ 1 đến n, mỗi số in ra một dòng.
 | --- | --- |
 | 7 | 1<br>2<br>3<br>4<br>5<br>6<br>7 |
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << i << endl;
+    }
+}
+```
+
 ### Bài 4: In ra các số từ n đến 1
 
 Viết chương trình in ra màn hình các số từ n đến 1.<br>
@@ -154,6 +171,23 @@ Các số từ n đến 1, mỗi số in ra một dòng.
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 7 | 7<br>6<br>5<br>4<br>3<br>2<br>1 |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = n; i >= 1; i--) {
+        cout << i << endl;
+    }
+}
+```
 
 ### Bài 5: Tính tổng các số từ 1 đến n
 
@@ -188,6 +222,26 @@ Vì `1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55`.
 Để giải bài toán này, bạn cần sử dụng vòng lặp for để duyệt qua các số từ 1 đến n.<br>
 Trong mỗi lần duyệt, bạn cần cộng giá trị của biến `i` vào biến tổng.
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+
+    cout << sum << endl;
+}
+```
+
 ### Bài 6: In ra các số chẵn trong khoảng từ 1 đến n
 
 Viết chương trình in ra màn hình các số chẵn trong khoảng từ 1 đến n.<br>
@@ -213,6 +267,44 @@ Các số chẵn từ 1 đến n, mỗi số in ra một dòng.
 | --- | --- |
 | 7 | 2<br>4<br>6 |
 
+**Bài làm mẫu:**
+
+Cách 1: For từ 1 tới n, kiểm tra số chẵn.
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0) {
+            cout << i << endl;
+        }
+    }
+}
+```
+
+Cách 2: For từ 2 tới n, bước nhảy là 2.
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 2; i <= n; i += 2) {
+        cout << i << endl;
+    }
+}
+```
+
 ### Bài 7: In ra các số lẻ trong khoảng từ 1 đến n
 
 Viết chương trình in ra màn hình các số lẻ trong khoảng từ 1 đến n.<br>
@@ -236,6 +328,44 @@ Các số lẻ từ 1 đến n, mỗi số in ra một dòng.
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 7 | 1<br>3<br>5<br>7 |
+
+**Bài làm mẫu:**
+
+Cách 1: For từ 1 tới n, kiểm tra số lẻ.
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 != 0) {
+            cout << i << endl;
+        }
+    }
+}
+```
+
+Cách 2: For từ 1 tới n, bước nhảy là 2.
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i += 2) {
+        cout << i << endl;
+    }
+}
+```
 
 ### Bài 8: Các số chia hết cho 2 hoặc 3 trong khoảng từ 1 đến n
 
