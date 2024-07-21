@@ -61,6 +61,20 @@ Các số từ 1 đến 10, mỗi số in ra một dòng.
 | --- | --- |
 | | 1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10 |
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 10; i++) {
+        cout << i << endl;
+    }
+}
+```
+
 ### Bài 2: In ra các số từ 10 đến 1
 
 Viết chương trình in ra màn hình các số từ 10 đến 1.<br>
@@ -70,6 +84,20 @@ Viết chương trình in ra màn hình các số từ 10 đến 1.<br>
 Không có.
 
 **Đầu ra**
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    for (int i = 10; i >= 1; i--) {
+        cout << i << endl;
+    }
+}
+```
 
 Các số từ 10 đến 1, mỗi số in ra một dòng.
 
