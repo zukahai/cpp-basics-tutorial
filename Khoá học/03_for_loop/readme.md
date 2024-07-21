@@ -391,6 +391,26 @@ Các số chia hết cho 2 hoặc 3 từ 1 đến n, mỗi số in ra một dòn
 | --- | --- |
 | 10 | 2<br>3<br>4<br>6<br>8<br>9 |
 
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0 || i % 3 == 0) {
+            cout << i << endl;
+        }
+    }
+}
+```
+
+
 ### Bài 9: Tính tổng các số chia hết cho 3 trong khoảng từ 1 đến n
 
 Viết chương trình tính tổng các số chia hết cho 3 trong khoảng từ 1 đến n.<br>
@@ -418,6 +438,28 @@ Vì `3 + 6 + 9 = 18`.
 | 15 | 45 |
 
 Vì `3 + 6 + 9 + 12 + 15 = 45`.
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        if (i % 3 == 0) {
+            sum += i;
+        }
+    }
+
+    cout << sum << endl;
+}
+```
 
 ### Bài 10: Các ước của N
 
@@ -451,6 +493,25 @@ Các ước của N, mỗi ước in ra một dòng.
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 15 | 1<br>3<br>5<br>15 |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            cout << i << endl;
+        }
+    }
+}
+```
 
 ### Bài 11: Tính N giai thừa
 
@@ -490,12 +551,26 @@ In ra giai thừa của N. (Xem ví dụ để hiểu rõ hơn)
 | --- | --- |
 | 2 | 1 * 2 = 2 |
 
+**Bài làm mẫu:**
 
+```cpp
+#include <bits/stdc++.h>
 
+using namespace std;
 
+int main() {
+    int n;
+    cin >> n;
 
+    int factorial = 1;
+    for (int i = 1; i <= n; i++) {
+        factorial *= i;
+        cout << i;
+        if (i < n) {
+            cout << " * ";
+        }
+    }
 
-
-
-
-
+    cout << " = " << factorial;
+}
+```
