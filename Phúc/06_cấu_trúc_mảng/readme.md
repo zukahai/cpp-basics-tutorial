@@ -280,7 +280,38 @@ Tổng các số chẵn trong mảng.
 | --- | --- |
 | 5<br> 1 3 5 7 9 | 0 |
 
-## Bài 9: Số lớn nhất trong mảng
+## Bài 9: Đếm số bằng 10
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+Nhập vào n số nguyên từ bàn phím và lưu vào mảng a.
+
+In ra màn hình số lần xuất hiện của số 10 trong mảng.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 100)
+- Dòng thứ hai chứa n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (0 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra**
+
+Số lần xuất hiện của số 10 trong mảng.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 10 10 4 5 | 2 |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>10 10 10 10 10 | 5 |
+
+
+## Bài 10: Số lớn nhất trong mảng
 
 Nhập vào một số nguyên dương n từ bàn phím.<br>
 
@@ -317,7 +348,7 @@ Số lớn nhất trong mảng.
 | --- | --- |
 | 5<br> 5 2 6 8 2 | 8 |
 
-## Bài 10: Số lớn nhất và số lần xuất hiện
+## Bài 11: Số lớn nhất và số lần xuất hiện
 
 Nhập vào một số nguyên dương n từ bàn phím.<br>
 
@@ -360,6 +391,39 @@ Số lớn nhất trong mảng và số lần xuất hiện của số lớn nh�
 
 **Giải thích:** Số 7 xuất hiện 5 lần trong mảng.
 
+## Bài 12: Giá trị lớn thứ hai
 
+Nhập vào một số nguyên dương n từ bàn phím.<br>
 
+Nhập vào n số nguyên từ bàn phím và lưu vào mảng a.
 
+In ra màn hình giá trị lớn thứ hai trong mảng.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 100)
+- Dòng thứ hai chứa n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (0 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra**
+
+Giá trị lớn thứ hai trong mảng.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 2 3 4 5 | 4 |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>22 4 6 22 11 | 11 |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br> 5 2 6 8 8 | 6 |
