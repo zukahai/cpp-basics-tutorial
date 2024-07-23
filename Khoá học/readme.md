@@ -25,8 +25,11 @@ https://tleoj.edu.vn/contest/hz02
 - Tham gia thi online tại:
 https://tleoj.edu.vn/contest/hz03
 
-- Bài giải mẫu: Sẽ được cập nhật sau
+- Bài giải mẫu [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/blob/main/Khoá%20học/03_for_loop/readme.md)
 
 ### Buổi 4: Ôn tập vòng lặp for
-- Sẽ cập nhật sau
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz04
+
+- Bài giải mẫu [Tại đây]()
 
