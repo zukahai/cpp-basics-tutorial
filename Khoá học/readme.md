@@ -31,5 +31,5 @@ https://tleoj.edu.vn/contest/hz03
 - Tham gia thi online tại:
 https://tleoj.edu.vn/contest/hz04
 
-- Bài giải mẫu [Tại đây]()
+- Bài giải mẫu [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/tree/main/Khoá%20học/05_while_do_while/ex4)
 
