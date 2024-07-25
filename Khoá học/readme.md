@@ -33,3 +33,13 @@ https://tleoj.edu.vn/contest/hz04
 
 - Bài giải mẫu [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/tree/main/Khoá%20học/05_while_do_while/ex4)
 
+### Buổi 5: Ôn tập vòng lặp for, while, do while
+
+Buổi này không có bài tập online, các bạn tự luyện tập thêm bài tập ở buổi 4
+
+### Buổi 6: Mảng 1 chiều
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz06
+
+- Bài giải mẫu: Sẽ cập nhật sau
+
