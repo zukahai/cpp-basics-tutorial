@@ -192,7 +192,7 @@ Viết chương trình nhập mảng 2 chiều `a` kích thước `m x n` và đ
 
 | Input | Output |
 |-------|--------|
-| 3 3<br> 1 2 3<br> 4 5 6<br> 7 8 9 | 5 4 |
+| 3 3<br> 1 2 3<br> 4 5 6<br> 7 8 9 | 4 5 |
 
 ### Ví dụ 3:
 
