@@ -41,5 +41,11 @@ Buổi này không có bài tập online, các bạn tự luyện tập thêm b�
 - Tham gia thi online tại:
 https://tleoj.edu.vn/contest/hz06
 
+- Bài giải mẫu [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/tree/main/Khoá%20học/06_array_1D/exs)
+
+### Buổi 7: Mảng 2 chiều
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz07
+
 - Bài giải mẫu: Sẽ cập nhật sau
 
