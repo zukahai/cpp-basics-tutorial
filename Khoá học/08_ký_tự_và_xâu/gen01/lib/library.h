@@ -205,6 +205,6 @@ string random_string(int n, int type)
             break;
         default:
             charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+ =-[]{};':,.<>?";
-        
     }
+    return random_string(n, charset);
 }
