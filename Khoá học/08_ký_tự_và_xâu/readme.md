@@ -1,4 +1,4 @@
-# Ký tự vào 
+# Ký tự và chuỗi
 
 <p align="center"> <img src="../../Quyết/08_ký_tự_và_chuỗi/images/ascii.png" alt="bg" /> </p>
 
@@ -263,6 +263,7 @@ Hãy in ra chuỗi `s` ở dạng in thường và chuỗi `s` ở dạng in hoa
 ## Bài 8: Các từ trong chuỗi
 
 Nhập vào một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100).<br>
+Các từ trong chuỗi `s` được phân cách bởi dấu cách.<br>
 
 Hãy in ra các từ trong chuỗi `s`. Mỗi từ trên một dòng.
 
