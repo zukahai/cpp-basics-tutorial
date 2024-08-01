@@ -73,4 +73,3 @@ Mình sẽ phân tích "Nam nay toi 18 tuoi" thành 3 phần:
 - "Nam nay toi ": chuỗi cố định.
 - tuoi: biến.
 - " tuoi": chuỗi cố định.
-

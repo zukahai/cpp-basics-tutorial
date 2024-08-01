@@ -192,3 +192,112 @@ int main() {
     cout << a << " / " << b << " = " << a / b;
 }
 ```
+
+### Bài 6: Phép chia 2 số nguyên
+
+Nhập vào 2 số nguyên dương a và b.<br>
+In ra màn hình
+- Phần nguyên của phép chia a cho b.
+- Phần dư của phép chia a cho b.
+- Trung bình cộng của a và b.
+
+**Đầu vào:**
+
+- Hai số nguyên `a`, `b`
+
+**Đầu ra:**
+
+In ra màn hình các phép toán cơ bản giữa `a` và `b` (xem ở ví dụ)
+
+#### Ví dụ:
+
+##### Ví dụ 1:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 5<br>3| Phan nguyen cua 5 / 3 la 1<br>Phan du cua 5 / 3 la 2<br>Trung binh cong cua 5 va 3 la 4.0 |
+
+##### Ví dụ 2:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 10<br>3| Phan nguyen cua 10 / 3 la 3<br>Phan du cua 10 / 3 la 1<br>Trung binh cong cua 10 va 3 la 6.5 |
+
+##### Ví dụ 3:
+
+| Input | Output                  |
+|-------|-------------------------|
+| 7<br>2 | Phan nguyen cua 7 / 2 la 3<br>Phan du cua 7 / 2 la 1<br>Trung binh cong cua 7 va 2 la 4.5 |
+
+### Bài 7: Chữ số cuối cùng
+
+Nhập vào một số nguyên dương `n`<br>
+
+In ra màn hình chữ số cuối cùng của số `n`.
+
+**Đầu vào:**
+
+- Một số nguyên dương `n`
+
+**Đầu ra:**
+
+In ra màn hình chữ số cuối cùng của số `n`.
+
+**Gợi ý:**
+
+- Để lấy chữ số cuối cùng của một số nguyên `n`, ta có thể lấy phần dư của `n` cho 10.
+
+#### Ví dụ:
+
+##### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| 123   | Chu so cuoi cung cua 123 la 3     |
+
+##### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| 456   | Chu so cuoi cung cua 456 la 6     |
+
+##### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| 789   | Chu so cuoi cung cua 789 la 9     |
+
+
+### Bài 8: Số đảo ngược
+
+Nhập vào một số nguyên dương `n` có 2 chữ số.<br>
+
+In ra màn hình số đảo ngược của số `n`.
+
+**Đầu vào:**
+
+- Một số nguyên dương `n` có 2 chữ số.
+
+**Đầu ra:**
+
+In ra màn hình số đảo ngược của số `n`.
+
+#### Ví dụ:
+
+##### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| 12    | So dao nguoc cua 12 la 21     |
+
+##### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| 34    | So dao nguoc cua 34 la 43     |
+
+##### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| 90    | So dao nguoc cua 90 la 09     |
