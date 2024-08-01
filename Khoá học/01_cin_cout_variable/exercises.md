@@ -301,3 +301,37 @@ In ra màn hình số đảo ngược của số `n`.
 | Input | Output |
 |-------|--------|
 | 90    | So dao nguoc cua 90 la 09     |
+
+### Bài 9: Số có 4 chữ số
+
+Nhập vào một số nguyên dương `n` có 4 chữ số.<br>
+
+In ra màn hình các chữ số của N
+
+**Đầu vào:**
+
+- Một số nguyên dương `n` có 4 chữ số.
+
+**Đầu ra:**
+
+In ra màn hình các chữ số của N
+
+#### Ví dụ:
+
+##### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| 1234  | So thu 1 cua 1234 la 1<br>So thu 2 cua 1234 la 2<br>So thu 3 cua 1234 la 3<br>So thu 4 cua 1234 la 4     |
+
+##### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| 5678  | So thu 1 cua 5678 la 5<br>So thu 2 cua 5678 la 6<br>So thu 3 cua 5678 la 7<br>So thu 4 cua 5678 la 8     |
+
+##### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| 9876  | So thu 1 cua 9876 la 9<br>So thu 2 cua 9876 la 8<br>So thu 3 cua 9876 la 7<br>So thu 4 cua 9876 la 6     |
