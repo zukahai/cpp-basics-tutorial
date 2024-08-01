@@ -47,5 +47,12 @@ https://tleoj.edu.vn/contest/hz06
 - Tham gia thi online tại:
 https://tleoj.edu.vn/contest/hz07
 
+- Bài giải mẫu: [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/tree/main/Khoá%20học/07_array_2D/exs)
+
+### Buổi 8: Ký tự và chuỗi ký tự
+
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz08
+
 - Bài giải mẫu: Sẽ cập nhật sau
 
