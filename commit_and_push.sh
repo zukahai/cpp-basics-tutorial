@@ -9,7 +9,6 @@ foreach ($file in $untracked_files) {
         try {
             # Chuyển đổi dấu gạch chéo thành gạch chéo ngược
             $valid_file = $file -replace '^.*09_functional', '09_functional'
-            $valid_file = $valid_file -replace '/', '\'
 
             Write-Output "Processing file: $valid_file"
 
