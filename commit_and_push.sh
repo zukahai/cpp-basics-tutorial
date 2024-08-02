@@ -1,12 +1,16 @@
-# Lấy danh sách các tệp tin chưa được theo dõi từ git status
-$untracked_files = git status --porcelain | Select-String '^\?\? ' | ForEach-Object { $_.Line -replace '^\?\? ', '' }
+# Đổi thư mục làm việc tới thư mục chứa repo Git của bạn
+Set-Location -Path "G:\git\cpp-basics-tutorial"
+
+# Lấy danh sách tất cả các tệp tin chưa được theo dõi từ git status
+$untracked_files = git ls-files --others --exclude-standard
 
 foreach ($file in $untracked_files) {
     if ($file -ne "") {
         try {
-            # Thay thế phần đầu của đường dẫn và chuyển đổi dấu gạch chéo thành gạch chéo ngược
+            # Chuyển đổi dấu gạch chéo thành gạch chéo ngược
             $valid_file = $file -replace '^.*09_functional', '09_functional'
             $valid_file = $valid_file -replace '/', '\'
+
             Write-Output "Processing file: $valid_file"
 
             # Thêm từng tệp vào staging area
