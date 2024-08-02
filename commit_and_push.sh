@@ -1,23 +1,24 @@
-# Lấy danh sách các tệp tin đã thay đổi nhưng chưa được staged
-$unstaged_files = git diff --name-only
+# Lấy danh sách các tệp tin chưa được theo dõi từ git status
+$untracked_files = git status --porcelain | Select-String '^\?\? ' | ForEach-Object { $_.Line -replace '^\?\? ', '' }
 
-# Lấy danh sách các tệp tin đã staged
-$staged_files = git diff --cached --name-only
-
-# Kết hợp danh sách các tệp tin
-$all_files = $unstaged_files + "`n" + $staged_files
-$all_files = $all_files -split "`n"
-
-foreach ($file in $all_files) {
+foreach ($file in $untracked_files) {
     if ($file -ne "") {
-        # Thêm từng tệp vào staging area
-        git add $file
-        
-        # Commit từng tệp với thông điệp commit cụ thể
-        git commit -m "add file $file"
-        git push
+        try {
+            # Thay thế phần đầu của đường dẫn và chuyển đổi dấu gạch chéo thành gạch chéo ngược
+            $valid_file = $file -replace '^.*09_functional', '09_functional'
+            $valid_file = $valid_file -replace '/', '\'
+            Write-Output "Processing file: $valid_file"
+
+            # Thêm từng tệp vào staging area
+            git add "$valid_file"
+            
+            # Commit từng tệp với thông điệp commit cụ thể
+            git commit -m "Add file $valid_file"
+            
+            # Đẩy commit lên remote repository
+            git push
+        } catch {
+            Write-Output "Error processing file: $file"
+        }
     }
 }
-
-# Đẩy các commit lên remote repository
-
