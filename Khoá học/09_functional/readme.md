@@ -472,6 +472,93 @@ Nhập vào 2 số nguyên `a`, `b` (1 ≤ a, b ≤ 10^6). Tính tổng các s�
 | 10 10 | 55 <br> 55 <br> 10 |
 
 
+## Bài 8: Mã hoá chuỗi
+
+Viết hàm nextCharacter(c) để trả về ký tự tiếp theo của ký tự `c` trong bảng chữ cái tiếng Anh. Nếu `c` là ký tự cuối cùng trong bảng chữ cái thì trả về ký tự đầu tiên.
+
+Ví dụ: nextCharacter('a') trả về 'b', nextCharacter('z') trả về 'a'
+
+- Kiểu dữ liệu đầu vào: một ký tự `c` ('a' ≤ c ≤ 'z')
+- Kiểu dữ liệu đầu ra: một ký tự là ký tự tiếp theo của `c`
+
+```C++
+char nextCharacter(char c) {
+    // code
+}
+```
+
+Viết hàm `encode(s)` để mã hoá chuỗi `s` bằng cách thay thế mỗi ký tự trong chuỗi `s` bằng ký tự tiếp theo của nó trong bảng chữ cái tiếng Anh.
+
+- Kiểu dữ liệu đầu vào: một chuỗi `s` (1 ≤ |s| ≤ 10^6)
+- Kiểu dữ liệu đầu ra: chuỗi sau khi mã hoá
+
+```C++
+string encode(string s) {
+    // code
+}
+```
+
+### Áp dụng hàm cho ví dụ sau:
+
+Nhập vào chuỗi `s`
+
+- In ra chuỗi sau khi mã hoá chuỗi `s`
+
+**Đầu vào**
+
+- Dòng đầu tiên: chuỗi `s`, độ dài của chuỗi `s` không vượt quá 10^6.<br>
+s chỉ chứa các ký tự chữ cái thường tiếng Anh ('a' ≤ s[i] ≤ 'z')
+
+**Đầu ra**
+
+- Dòng đầu tiên: chuỗi sau khi mã hoá chuỗi `s`
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| abcxyz | bcdyza |
+
+**Giải thích**
+
+- Ký tự tiếp theo của 'a' là 'b'
+- Ký tự tiếp theo của 'b' là 'c'
+- Ký tự tiếp theo của 'c' là 'd'
+- Ký tự tiếp theo của 'x' là 'y'
+- Ký tự tiếp theo của 'y' là 'z'
+- Ký tự tiếp theo của 'z' là 'a'
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| hello | ifmmp |
+
+**Giải thích**
+
+- Ký tự tiếp theo của 'h' là 'i'
+- Ký tự tiếp theo của 'e' là 'f'
+- Ký tự tiếp theo của 'l' là 'm'
+- Ký tự tiếp theo của 'l' là 'm'
+- Ký tự tiếp theo của 'o' là 'p'
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| xyzabc | yzabcd |
+
+**Giải thích**
+
+- Ký tự tiếp theo của 'x' là 'y'
+- Ký tự tiếp theo của 'y' là 'z'
+- Ký tự tiếp theo của 'z' là 'a'
+- Ký tự tiếp theo của 'a' là 'b'
+- Ký tự tiếp theo của 'b' là 'c'
+- Ký tự tiếp theo của 'c' là 'd'
+
 
 
 
