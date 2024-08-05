@@ -54,5 +54,9 @@ https://tleoj.edu.vn/contest/hz07
 - Tham gia thi online tại:
 https://tleoj.edu.vn/contest/hz08
 
-- Bài giải mẫu: Sẽ cập nhật sau
+- Bài giải mẫu: [Tại đây](https://github.com/zukahai/cpp-basics-tutorial/tree/main/Phúc/09_ký_tự_và_xâu/exs)
 
+### Buổi 9: Lập trình phương thức
+
+- Tham gia thi online tại:
+https://tleoj.edu.vn/contest/hz09
