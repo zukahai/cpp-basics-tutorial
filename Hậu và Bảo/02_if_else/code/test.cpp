@@ -3,23 +3,28 @@
 using namespace std;
 
 int main() {
-	int n;
-	cin >> n;
-	if ((n % 4 == 0 && n % 100 != 0) || n % 400 == 0) {
-		cout << "YES";
+//	int a, b;
+//	cin >> a >> b;
+	if (10 > 8) {
+		if (6 > 6) {
+			cout << "A";
+		}
 	} else {
-		cout << "NO";
+		if (8 > 6) {
+			cout << "C";
+		} else {
+			cout << "D";
+		}
 	}
 	
 	/*
 	
-	Kiem tra xem so tu nhien N:
-	Co phai so chan co 2 chu so hoac so le co ba chu so khong
-	In ra YES neu phai, NO neu khong
-	N = 46 -> YES
-	N = 123 -> YES
-	N = 35 -> NO
-	N = 124 -> NO
+	Nhap va a, b
+	So sanh a va b
+	Ket qua
+	- a = b
+	- a > b
+	- a < b
 	
 	*/
 }
