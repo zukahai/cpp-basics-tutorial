@@ -96,7 +96,7 @@ int maxTwoNumber(int a, int b) {
 Nhập vào 4 số nguyên `a`, `b`, `c`, `d` (1 ≤ a, b, c, d ≤ 10^6). Tìm số lớn nhất trong các cặp sau:
 
 - Số lớn nhất trong `a` và `b`
-- Số lớn nhất trong `b` và `c`
+- Số lớn nhất trong `c` và `d`
 - Số lớn nhất trong `a`, `b`, `c` và `d`
 
 **Đầu vào**

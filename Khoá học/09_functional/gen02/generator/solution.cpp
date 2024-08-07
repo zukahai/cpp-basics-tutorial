@@ -18,6 +18,6 @@ int main()
    int a, b, c, d;
     cin >> a >> b >> c >> d;
     cout << max(a, b) << endl;
-    cout << max(b, c) << endl;
+    cout << max(c, d) << endl;
     cout << max(max(a, b), max(c, d)) << endl;
 }
