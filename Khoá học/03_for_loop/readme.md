@@ -574,3 +574,115 @@ int main() {
     cout << " = " << factorial;
 }
 ```
+
+### Bài 12: Tổng chu vi và diện tích
+
+Nhập vào số nguyên dương N (1 ≤ N ≤ 100).<br>
+
+Có N hình vuông như sau:
+
+- Hình vuông thứ 1 có cạnh là 1.
+- Hình vuông thứ 2 có cạnh là 2.
+- Hình vuông thứ 3 có cạnh là 3.
+- ...
+- Hình vuông thứ N có cạnh là N.
+
+Hãy tính tổng chu vi và diện tích của N hình vuông này.
+
+**Đầu vào**
+
+Số nguyên dương N (1 ≤ N ≤ 100).
+
+**Đầu ra**
+
+Tổng chu vi và diện tích của N hình vuông (Xem thêm ví dụ)
+
+#### Ví dụ
+
+##### Ví dụ 1
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 3 | Tong chu vi: 24<br>Dien tich: 14 |
+
+- Hình vuông thứ 1: Cạnh = 1
+    - Chu vi: 1 * 4 = 4
+    - Diện tích: 1 * 1 = 1
+- Hình vuông thứ 2: Cạnh = 2
+    - Chu vi: 2 * 4 = 8
+    - Diện tích: 2 * 2 = 4
+- Hình vuông thứ 3: Cạnh = 3
+    - Chu vi: 3 * 4 = 12
+    - Diện tích: 3 * 3 = 9
+
+Tổng chu vi: 4 + 8 + 12 = 24<br>
+Tổng diện tích: 1 + 4 + 9 = 14
+
+##### Ví dụ 2
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5 | Tong chu vi: 60<br>Dien tich: 55 |
+
+### Bài 13: Tính giá trị biểu thức
+
+Nhập vào số nguyên dương N (1 ≤ N ≤ 100).<br>
+
+In ra giá trị của biểu thức:
+
+1 * 2 + 2 * 3 + 3 * 4 + ... + N * (N + 1)
+
+**Đầu vào**
+
+Số nguyên dương N (1 ≤ N ≤ 100).
+
+**Đầu ra**
+
+Giá trị của biểu thức. Xem ví dụ
+
+#### Ví dụ
+
+##### Ví dụ 1
+
+| Đầu vào | Đầu ra |
+| --- | ----------- |
+| 3 | 1 * 2 + 2 * 3 + 3 * 4 = 20 |
+
+##### Ví dụ 2
+
+| Đầu vào | Đầu ra |
+| --- | -----------|
+| 5 | 1 * 2 + 2 * 3 + 3 * 4 + 4 * 5 + 5 * 6 = 70 |
+
+### Bài 14: Kích thước hình chữ nhật
+
+Nhập vào số nguyên S là diện tích của hình chữ nhật (1 ≤ S ≤ 1000000).<br>
+
+Hãy tìm ra các cặp số nguyên dương (a, b) sao cho a * b = S và a, b là số nguyên dương.
+
+**Đầu vào**
+
+Số nguyên S (1 ≤ S ≤ 1000000).
+
+**Đầu ra**
+
+Các cặp số nguyên dương (a, b) sao cho a * b = S, mỗi cặp in ra một dòng.
+
+**Ví dụ 1**
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 6 | 1 6<br>2 3<br> 3 2<br>6 1 |
+
+**Ví dụ 2**
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 12 | 1 12<br>2 6<br>3 4<br>4 3<br>6 2<br>12 1 |
+
+**Ví dụ 3**
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 20 | 1 20<br>2 10<br>4 5<br>5 4<br>10 2<br>20 1 |
+
