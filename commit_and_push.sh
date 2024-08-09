@@ -32,7 +32,7 @@ foreach ($file in $untracked_files) {
     if ($file -ne "") {
         try {
             # Chuyển đổi dấu gạch chéo thành gạch chéo ngược
-            $valid_file = $file -replace '^.*02_if_else', '02_if_else'
+            $valid_file = $file -replace '^.*03_for_loop', '03_for_loop'
 
             Write-Output "Processing file: $valid_file"
 
