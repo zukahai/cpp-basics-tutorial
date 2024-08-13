@@ -242,6 +242,32 @@ In ra hình tam giác số có chiều cao N
 |-------|--------|
 | 7     | 1 <br> 1 2 <br> 1 2 3 <br> 1 2 3 4 <br> 1 2 3 4 5 <br> 1 2 3 4 5 6 <br> 1 2 3 4 5 6 7 |
 
+## Bài 9: Tam giác vuông * 2
+
+Nhập vào một số N (1 <= N <= 1000). In ra hình tam giác vuông cân có chiều cao N
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra hình tam giác * vuông cân có chiều cao N
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 3     | *** <br> ** <br> * |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5     | ***** <br> **** <br> *** <br> ** <br> * |
+
 ## Bài 9: Số lớn nhất
 
 Nhập vào một số N (0 <= N <= 1000). In ra số lớn nhất trong khoảng từ 0 đến N mà chia hết cho 5
