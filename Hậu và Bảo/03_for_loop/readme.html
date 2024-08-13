@@ -1,0 +1,828 @@
+<!DOCTYPE html><html><head>
+      <title>readme</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\HAIZUKA\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="vòng-lặp-for">Vòng lặp for </h1>
+<p>Vòng lặp for có cấu trúc như sau:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span>Khởi tạo<span class="token punctuation">;</span> điều kiện<span class="token punctuation">;</span> thay đổi<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Khối lệnh</span>
+<span class="token punctuation">}</span>
+</code></pre><ul>
+<li><code>Khởi tạo</code>: Thực hiện một lần duy nhất khi bắt đầu vòng lặp.</li>
+<li><code>Điều kiện</code>: Kiểm tra điều kiện, nếu đúng thì thực hiện <code>khối lệnh</code> và <code>thay đổi</code>, ngược lại thoát khỏi vòng lặp.</li>
+</ul>
+<p>Ví dụ cụ thể:</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Kết quả:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>0
+1
+2
+</code></pre><p>Quy trình thực hiện của vòng lặp for:</p>
+<ol>
+<li>Khởi tạo: <code>int i = 0</code>.</li>
+<li>Kiểm tra điều kiện: <code>i &lt; 3</code> đúng (i = 0).</li>
+<li>Thực hiện khối lệnh: <code>cout &lt;&lt; i &lt;&lt; endl</code>. (in ra 0)</li>
+<li>Thay đổi: <code>i++</code>.</li>
+<li>Kiểm tra điều kiện: <code>i &lt; 3</code> đúng (i = 1).</li>
+<li>Thực hiện khối lệnh: <code>cout &lt;&lt; i &lt;&lt; endl</code>. (in ra 1)</li>
+<li>Thay đổi: <code>i++</code>.</li>
+<li>Kiểm tra điều kiện: <code>i &lt; 3</code> đúng (i = 2).</li>
+<li>Thực hiện khối lệnh: <code>cout &lt;&lt; i &lt;&lt; endl</code>. (in ra 2)</li>
+<li>Thay đổi: <code>i++</code>.</li>
+<li>Kiểm tra điều kiện: <code>i &lt; 3</code> sai (i = 3).</li>
+<li>Kết thúc vòng lặp.</li>
+</ol>
+<h2 id="bài-tập">Bài tập </h2>
+<h3 id="bài-1-in-ra-các-số-từ-1-đến-10">Bài 1: In ra các số từ 1 đến 10 </h3>
+<p>Viết chương trình in ra màn hình các số từ 1 đến 10.<br><br>
+Mỗi số in ra một dòng.</p>
+<p><strong>Đầu vào</strong></p>
+<p>Không có.</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các số từ 1 đến 10, mỗi số in ra một dòng.</p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-2-in-ra-các-số-từ-10-đến-1">Bài 2: In ra các số từ 10 đến 1 </h3>
+<p>Viết chương trình in ra màn hình các số từ 10 đến 1.<br></p>
+<p><strong>Đầu vào</strong></p>
+<p>Không có.</p>
+<p><strong>Đầu ra</strong></p>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Các số từ 10 đến 1, mỗi số in ra một dòng.</p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>10<br>9<br>8<br>7<br>6<br>5<br>4<br>3<br>2<br>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bài-3-in-ra-các-số-từ-1-đến-n">Bài 3: In ra các số từ 1 đến n </h3>
+<p>Viết chương trình in ra màn hình các số từ 1 đến n.<br><br>
+Trong đó, n là số nguyên dương nhập từ bàn phím.</p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 100).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các số từ 1 đến n, mỗi số in ra một dòng.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>1<br>2<br>3<br>4<br>5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>1<br>2<br>3<br>4<br>5<br>6<br>7</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-4-in-ra-các-số-từ-n-đến-1">Bài 4: In ra các số từ n đến 1 </h3>
+<p>Viết chương trình in ra màn hình các số từ n đến 1.<br><br>
+Trong đó, n là số nguyên dương nhập từ bàn phím.</p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 100).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các số từ n đến 1, mỗi số in ra một dòng.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>5<br>4<br>3<br>2<br>1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>7<br>6<br>5<br>4<br>3<br>2<br>1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> n<span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-5-tính-tổng-các-số-từ-1-đến-n">Bài 5: Tính tổng các số từ 1 đến n </h3>
+<p>Viết chương trình tính tổng các số từ 1 đến n.<br></p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 1000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Tổng các số từ 1 đến n.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<p>Vì <code>1 + 2 + 3 + 4 + 5 = 15</code>.</p>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>55</td>
+</tr>
+</tbody>
+</table>
+<p>Vì <code>1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55</code>.</p>
+<h2 id="gợi-ý">Gợi ý </h2>
+<p>Để giải bài toán này, bạn cần sử dụng vòng lặp for để duyệt qua các số từ 1 đến n.<br><br>
+Trong mỗi lần duyệt, bạn cần cộng giá trị của biến <code>i</code> vào biến tổng.</p>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-int">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        sum <span class="token operator">+=</span> i<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    cout <span class="token operator">&lt;&lt;</span> sum <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-6-in-ra-các-số-chẵn-trong-khoảng-từ-1-đến-n">Bài 6: In ra các số chẵn trong khoảng từ 1 đến n </h3>
+<p>Viết chương trình in ra màn hình các số chẵn trong khoảng từ 1 đến n.<br><br>
+Trong đó, n là số nguyên dương nhập từ bàn phím.</p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 1000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các số chẵn từ 1 đến n, mỗi số in ra một dòng.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>2<br>4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>2<br>4<br>6</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<p>Cách 1: For từ 1 tới n, kiểm tra số chẵn.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Cách 2: For từ 2 tới n, bước nhảy là 2.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i <span class="token operator">+=</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-7-in-ra-các-số-lẻ-trong-khoảng-từ-1-đến-n">Bài 7: In ra các số lẻ trong khoảng từ 1 đến n </h3>
+<p>Viết chương trình in ra màn hình các số lẻ trong khoảng từ 1 đến n.<br></p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 1000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các số lẻ từ 1 đến n, mỗi số in ra một dòng.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>1<br>3<br>5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>1<br>3<br>5<br>7</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<p>Cách 1: For từ 1 tới n, kiểm tra số lẻ.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Cách 2: For từ 1 tới n, bước nhảy là 2.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i <span class="token operator">+=</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-8-các-số-chia-hết-cho-2-hoặc-3-trong-khoảng-từ-1-đến-n">Bài 8: Các số chia hết cho 2 hoặc 3 trong khoảng từ 1 đến n </h3>
+<p>Viết chương trình in ra màn hình các số chia hết cho 2 hoặc 3 trong khoảng từ 1 đến n.<br></p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 1000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các số chia hết cho 2 hoặc 3 từ 1 đến n, mỗi số in ra một dòng.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>2<br>3<br>4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>2<br>3<br>4<br>6<br>8<br>9</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> i <span class="token operator">%</span> <span class="token number">3</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-9-tính-tổng-các-số-chia-hết-cho-3-trong-khoảng-từ-1-đến-n">Bài 9: Tính tổng các số chia hết cho 3 trong khoảng từ 1 đến n </h3>
+<p>Viết chương trình tính tổng các số chia hết cho 3 trong khoảng từ 1 đến n.<br></p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương n (1 ≤ n ≤ 1000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Tổng các số chia hết cho 3 từ 1 đến n.</p>
+<p><strong>Ví dụ 1:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+<p>Vì <code>3 + 6 + 9 = 18</code>.</p>
+<p><strong>Ví dụ 2:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15</td>
+<td>45</td>
+</tr>
+</tbody>
+</table>
+<p>Vì <code>3 + 6 + 9 + 12 + 15 = 45</code>.</p>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-int">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">3</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            sum <span class="token operator">+=</span> i<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    cout <span class="token operator">&lt;&lt;</span> sum <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-10-các-ước-của-n">Bài 10: Các ước của N </h3>
+<p>Nhập vào số nguyên dương N (1 ≤ N ≤ 1000).<br><br>
+Hãy liệt kê tất cả các ước của N.</p>
+<p><em>Các ước của N là các số tự nhiên mà N chia hết</em></p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương N (1 ≤ N ≤ 1000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các ước của N, mỗi ước in ra một dòng.</p>
+<p><strong>Ví dụ 1</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>1<br>2<br>3<br>6</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>1<br>2<br>5<br>10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 3</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15</td>
+<td>1<br>3<br>5<br>15</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-11-tính-n-giai-thừa">Bài 11: Tính N giai thừa </h3>
+<p>Nhập vào số nguyên N (2 ≤ N ≤ 10).<br></p>
+<p>Tính N giai thừa.</p>
+<p>Giai thừa của N được tính bằng công thức:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>N! = 1 * 2 * 3 * ... * N
+</code></pre><p><strong>Đầu vào</strong></p>
+<p>Số nguyên N (2 ≤ N ≤ 10).</p>
+<p><strong>Đầu ra</strong></p>
+<p>In ra giai thừa của N. (Xem ví dụ để hiểu rõ hơn)</p>
+<p><strong>Ví dụ 1</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>1 * 2 * 3 * 4 * 5 = 120</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8</td>
+<td>1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 = 40320</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 3</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>1 * 2 = 2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bài làm mẫu:</strong></p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    cin <span class="token operator">&gt;&gt;</span> n<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-int">int</span> factorial <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        factorial <span class="token operator">*=</span> i<span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> i<span class="token punctuation">;</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            cout <span class="token operator">&lt;&lt;</span> <span class="token string">" * "</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">" = "</span> <span class="token operator">&lt;&lt;</span> factorial<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="bài-12-tổng-chu-vi-và-diện-tích">Bài 12: Tổng chu vi và diện tích </h3>
+<p>Nhập vào số nguyên dương N (1 ≤ N ≤ 100).<br></p>
+<p>Có N hình vuông như sau:</p>
+<ul>
+<li>Hình vuông thứ 1 có cạnh là 1.</li>
+<li>Hình vuông thứ 2 có cạnh là 2.</li>
+<li>Hình vuông thứ 3 có cạnh là 3.</li>
+<li>...</li>
+<li>Hình vuông thứ N có cạnh là N.</li>
+</ul>
+<p>Hãy tính tổng chu vi và diện tích của N hình vuông này.</p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương N (1 ≤ N ≤ 100).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Tổng chu vi và diện tích của N hình vuông (Xem thêm ví dụ)</p>
+<h4 id="ví-dụ">Ví dụ </h4>
+<h5 id="ví-dụ-1">Ví dụ 1 </h5>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>Tong chu vi: 24<br>Dien tich: 14</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Hình vuông thứ 1: Cạnh = 1
+<ul>
+<li>Chu vi: 1 * 4 = 4</li>
+<li>Diện tích: 1 * 1 = 1</li>
+</ul>
+</li>
+<li>Hình vuông thứ 2: Cạnh = 2
+<ul>
+<li>Chu vi: 2 * 4 = 8</li>
+<li>Diện tích: 2 * 2 = 4</li>
+</ul>
+</li>
+<li>Hình vuông thứ 3: Cạnh = 3
+<ul>
+<li>Chu vi: 3 * 4 = 12</li>
+<li>Diện tích: 3 * 3 = 9</li>
+</ul>
+</li>
+</ul>
+<p>Tổng chu vi: 4 + 8 + 12 = 24<br><br>
+Tổng diện tích: 1 + 4 + 9 = 14</p>
+<h5 id="ví-dụ-2">Ví dụ 2 </h5>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>Tong chu vi: 60<br>Dien tich: 55</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bài-13-tính-giá-trị-biểu-thức">Bài 13: Tính giá trị biểu thức </h3>
+<p>Nhập vào số nguyên dương N (1 ≤ N ≤ 100).<br></p>
+<p>In ra giá trị của biểu thức:</p>
+<p>1 * 2 + 2 * 3 + 3 * 4 + ... + N * (N + 1)</p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên dương N (1 ≤ N ≤ 100).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Giá trị của biểu thức. Xem ví dụ</p>
+<h4 id="ví-dụ-1">Ví dụ </h4>
+<h5 id="ví-dụ-1-1">Ví dụ 1 </h5>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>1 * 2 + 2 * 3 + 3 * 4 = 20</td>
+</tr>
+</tbody>
+</table>
+<h5 id="ví-dụ-2-1">Ví dụ 2 </h5>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>1 * 2 + 2 * 3 + 3 * 4 + 4 * 5 + 5 * 6 = 70</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bài-14-kích-thước-hình-chữ-nhật">Bài 14: Kích thước hình chữ nhật </h3>
+<p>Nhập vào số nguyên S là diện tích của hình chữ nhật (1 ≤ S ≤ 1000000).<br></p>
+<p>Hãy tìm ra các cặp số nguyên dương (a, b) sao cho a * b = S và a, b là số nguyên dương.</p>
+<p><strong>Đầu vào</strong></p>
+<p>Số nguyên S (1 ≤ S ≤ 1000000).</p>
+<p><strong>Đầu ra</strong></p>
+<p>Các cặp số nguyên dương (a, b) sao cho a * b = S, mỗi cặp in ra một dòng.</p>
+<p><strong>Ví dụ 1</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>1 6<br>2 3<br> 3 2<br>6 1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 2</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td>
+<td>1 12<br>2 6<br>3 4<br>4 3<br>6 2<br>12 1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ví dụ 3</strong></p>
+<table>
+<thead>
+<tr>
+<th>Đầu vào</th>
+<th>Đầu ra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20</td>
+<td>1 20<br>2 10<br>4 5<br>5 4<br>10 2<br>20 1</td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
