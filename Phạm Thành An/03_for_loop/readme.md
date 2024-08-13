@@ -422,3 +422,32 @@ Các cặp số nguyên dương (a, b) sao cho a * b = S, mỗi cặp in ra mộ
 | --- | --- |
 | 20 | 1 20<br>2 10<br>4 5<br>5 4<br>10 2<br>20 1 |
 
+### Bài 15: Số lượng hình vuông
+
+Có N*N hình vuông nhỏ có kích thước 1x1 được sắp xếp thành một hình vuông lớn, Kích thước của hình vuông lớn là N*N.<br>
+
+Đếm số lượng hình vuông có trong hình vuông lớn.
+
+**Đầu vào**
+
+Số nguyên dương N (1 ≤ N ≤ 100000).
+
+**Đầu ra**
+
+Số lượng hình vuông có trong hình vuông lớn.
+
+**Ví dụ 1**
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 2 | 5 |
+
+![alt text](image-1.png)
+
+**Ví dụ 2**
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 3 | 14 |
+
+![alt text](image.png)
