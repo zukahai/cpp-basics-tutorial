@@ -207,7 +207,7 @@ Các số chia hết cho 2 hoặc 3 từ 1 đến n, mỗi số in ra một dòn
 
 | Đầu vào | Đầu ra |
 | --- | --- |
-| 10 | 2<br>3<br>4<br>6<br>8<br>9 |
+| 10 | 2<br>3<br>4<br>6<br>8<br>9<br>10 |
 
 
 ### Bài 9: Tính tổng các số chia hết cho 3 trong khoảng từ 1 đến n

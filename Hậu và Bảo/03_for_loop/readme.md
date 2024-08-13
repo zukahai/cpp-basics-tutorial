@@ -439,27 +439,6 @@ Vì `3 + 6 + 9 = 18`.
 
 Vì `3 + 6 + 9 + 12 + 15 = 45`.
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    int sum = 0;
-    for (int i = 1; i <= n; i++) {
-        if (i % 3 == 0) {
-            sum += i;
-        }
-    }
-
-    cout << sum << endl;
-}
-```
 
 ### Bài 10: Các ước của N
 
