@@ -424,7 +424,7 @@ Các cặp số nguyên dương (a, b) sao cho a * b = S, mỗi cặp in ra mộ
 
 ### Bài 15: Số lượng hình vuông
 
-Có N*N hình vuông nhỏ có kích thước 1x1 được sắp xếp thành một hình vuông lớn, Kích thước của hình vuông lớn là N*N.<br>
+Có N x N hình vuông nhỏ có kích thước 1x1 được sắp xếp thành một hình vuông lớn, Kích thước của hình vuông lớn là N x N.<br>
 
 Đếm số lượng hình vuông có trong hình vuông lớn.
 
