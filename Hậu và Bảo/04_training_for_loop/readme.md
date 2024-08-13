@@ -268,7 +268,68 @@ In ra hình tam giác * vuông cân có chiều cao N
 |-------|--------|
 | 5     | ***** <br> **** <br> *** <br> ** <br> * |
 
-## Bài 9: Số lớn nhất
+## Bài 10: Tam giác vuôg * 3
+
+Nhập vào một số N (1 <= N <= 1000). In ra hình tam giác vuông cân có chiều cao N
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra hình tam giác * vuông cân có chiều cao N
+
+### Ví dụ
+
+#### Ví dụ 1
+
+Với n = 3, in ra
+
+```
+  *
+ **
+***
+```
+
+Với n = 5, in ra
+
+```
+    *
+   **
+  ***
+ ****
+*****
+```
+
+## Bài 11: In ra tam giác số 2
+
+Nhập vào một số N (1 <= N <= 1000). In ra hình tam giác số có chiều cao N
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra hình tam giác số có chiều cao N
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 3     | 1 <br> 2 3 <br> 4 5 6 |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5     | 1 <br> 2 3 <br> 4 5 6 <br> 7 8 9 10 <br> 11 12 13 14 15 |
+
+
+## Bài 12: Số lớn nhất
 
 Nhập vào một số N (0 <= N <= 1000). In ra số lớn nhất trong khoảng từ 0 đến N mà chia hết cho 5
 
@@ -301,7 +362,7 @@ In ra số lớn nhất trong khoảng từ 0 đến N mà chia hết cho 5
 | 1000  | 1000 |
 
 
-## Ước số chung lớn nhất
+## Bài 13: Ước số chung lớn nhất
 
 Nhập vào 2 số nguyên a và b (1 <= a, b <= 1000). In ra ước số chung lớn nhất của a và b
 
