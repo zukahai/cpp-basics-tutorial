@@ -401,3 +401,121 @@ In ra ước số chung lớn nhất của a và b
 | 15 25 | 5      |
 
 *15 và 25 đều chia hết cho 5, 5 là ước số chung lớn nhất của 15 và 25*
+
+# Bài 14: Hình vuông *
+
+Nhập vào một số N (1 <= N <= 1000). In ra hình vuông có cạnh dài N dấu *
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra hình vuông có cạnh dài N dấu *
+
+### Ví dụ
+
+#### Ví dụ 1
+
+Với N = 4, in ra
+
+```
+****
+*  *
+*  *
+****
+```
+
+#### Ví dụ 2
+
+Với N = 5, in ra
+
+```
+*****
+*   *
+*   *
+*   *
+*****
+```
+
+# Bài 15: Hình chữ nhật *
+
+Nhập vào 2 số nguyên N và M (1 <= N, M <= 1000). In ra hình chữ nhật có chiều dài N và chiều rộng M
+
+**Đầu vào:**
+
+- 2 số nguyên N và M (1 <= N, M <= 1000)
+
+**Đầu ra:**
+
+In ra hình chữ nhật có chiều dài N và chiều rộng M
+
+### Ví dụ
+
+#### Ví dụ 1
+
+Với N = 4, M = 3, in ra
+
+```
+****
+*  *
+****
+```
+
+#### Ví dụ 2
+
+Với N = 5, M = 4, in ra
+
+```
+*****
+*   *
+*   *
+*****
+```
+
+# Bài 16: Tam giác vuông cân *
+
+Nhập vào một số N (1 <= N <= 1000). In ra hình tam giác vuông cân có chiều cao N
+
+**Đầu vào:**
+
+- Số nguyên N (1 <= N <= 1000)
+
+**Đầu ra:**
+
+In ra hình tam giác vuông cân có chiều cao N
+
+### Ví dụ
+
+#### Ví dụ 1
+
+Với N = 5, in ra
+
+```
+*
+**
+* *
+*  *
+*****
+```
+
+#### Ví dụ 2
+
+Với N = 7, in ra
+
+```
+*
+**
+* *
+*  *
+*   *
+*    *
+*******
+```
+
+
+
+
+
+
