@@ -22,7 +22,7 @@ In ra N dòng, Mỗi dòng gôm 2 số, số thứ nhất là giá trị gấp �
 |-------|--------|
 | 3     | 2 3 <br> 4 6 <br> 6 9 |
 
-**Giải thích: ** 
+**Giải thích:** 
 - Dòng 1: 1 gấp đôi là 2, gấp ba là 3
 - Dòng 2: 2 gấp đôi là 4, gấp ba là 6
 - Dòng 3: 3 gấp đôi là 6, gấp ba là 9
