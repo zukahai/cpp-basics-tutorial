@@ -1,6 +1,47 @@
 # Vòng lặp while và do while
 
-## Bài 1: Tiền lương của Hậu
+## Bài 1: Luỹ thừa cơ số 2
+
+Viết chương trình nhập vào một số nguyên dương `n`.<br>
+
+Kỉểm tra xem `n` có phải là luỹ thừa cơ số 2 hay không.<br>
+
+Nếu `n` là luỹ thừa cơ số 2 thì in ra "YES", ngược lại in ra "NO".
+
+**Đầu vào**:
+
+- Một số nguyên dương `n` (0 ≤ n ≤ 10^9)
+
+**Đầu ra**:
+
+- In ra "YES" nếu `n` là luỹ thừa cơ số 2, ngược lại in ra "NO".
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 8     | YES    |
+
+**Giải thích**:
+
+8 = 2^3
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 10    | NO     |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 1024  | YES    |
+
+
+## Bài 2: Tiền lương của Hậu
 
 Hậu đang là giảng viên ở trường Đại học Bách Khoa. 
 Tiền lương của Hậu được tính theo công thức sau:
@@ -57,7 +98,7 @@ Số ngày ít nhất để tiền lương của Hậu lớn hơn hoặc bằng 
 |-------|--------|
 | 3000   | 12     |
 
-## Bài 2: Tiền lương của Hậu và Bảo
+## Bài 3: Tiền lương của Hậu và Bảo
 
 Hậu và Bảo cùng làm việc ở trường Đại học Bách Khoa.
 
@@ -104,7 +145,7 @@ Số ngày ít nhất để số tiền của Hậu lớn hơn hoặc bằng s�
 Số ngày ít nhất để số tiền của Hậu lớn hơn hoặc bằng số tiền của Bảo là 1 ngày.
 
 
-## Bài 3: Số lượng chữ số
+## Bài 4: Số lượng chữ số
 
 Viết chương trình nhập vào một số nguyên dương `n` và in ra số lượng chữ số của `n`.
 
@@ -140,7 +181,43 @@ Số 123 có 3 chữ số.
 |-------|--------|
 | 12039483     | 8      |
 
-## Bài 4: Số đảo ngược
+## Bài 5: Tổng các chữ số
+
+Viết chương trình nhập vào một số nguyên dương `n` và in ra tổng các chữ số của `n`.
+
+**Đầu vào**:
+
+- Một số nguyên dương `n` (0 ≤ n ≤ 10^9)
+
+**Đầu ra**:
+
+- Một số nguyên là tổng các chữ số của `n`.
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 123   | 6      |
+
+**Giải thích**:
+
+Tổng các chữ số của 123 là 1 + 2 + 3 = 6.
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 1000  | 1      |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 12039483     | 30     |
+
+## Bài 6: Số đảo ngược
 
 Viết chương trình nhập vào một số nguyên dương `n` và in ra số đảo ngược của `n`.
 
@@ -176,7 +253,7 @@ Số đảo ngược của 123 là 321.
 |-------|--------|
 | 1000  | 1      |
 
-## Bài 5: Số đối xứng
+## Bài 7: Số đối xứng
 
 Viết chương trình nhập vào một số nguyên dương `n` và kiểm tra xem `n` có phải là số đối xứng hay không.
 
@@ -209,4 +286,115 @@ Số đối xứng là số mà khi đọc từ trái sang phải hoặc từ ph
 | Input | Output |
 |-------|--------|
 | 1331 | YES     |
+
+## Bài 8: Số lượng ước số
+
+Viết chương trình nhập vào một số nguyên dương `n` và in ra số lượng ước số của `n`.
+
+**Đầu vào**:
+
+- Một số nguyên dương `n` (0 ≤ n ≤ 10^9)
+
+**Đầu ra**:
+
+- Một số nguyên là số lượng ước số của `n`.
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 6     | 4      |
+
+**Giải thích**:
+
+Số 6 có 4 ước số là 1, 2, 3, 6.
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 10    | 4      |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 100   | 9      |
+
+## Bài 9: Số nguyên tố
+
+Viết chương trình nhập vào một số nguyên dương `n` và kiểm tra xem `n` có phải là số nguyên tố hay không.
+
+Số nguyên tố là số có đúng 2 ước số dương là 1 và chính nó.
+
+Ví dụ: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ... là số nguyên tố.
+
+**Đầu vào**:
+
+- Một số nguyên dương `n`
+
+**Đầu ra**:
+
+- In ra "YES" nếu `n` là số nguyên tố, ngược lại in ra "NO".
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 7     | YES    |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 10    | NO     |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 13    | YES    |
+
+
+## Bài 10: Số hoàn thiện
+
+Viết chương trình nhập vào một số nguyên dương `n` và kiểm tra xem `n` có phải là số hoàn thiện hay không.
+
+Số hoàn thiện là số mà tổng các ước số trừ chính nó bằng chính nó.
+
+Ví dụ: 6, 28, 496, 8128, ... là số hoàn thiện.
+
+Vì 6 = 1 + 2 + 3, 28 = 1 + 2 + 4 + 7 + 14
+
+**Đầu vào**:
+
+- Một số nguyên dương `n`
+
+**Đầu ra**:
+
+- In ra "YES" nếu `n` là số hoàn thiện, ngược lại in ra "NO".
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 28    | YES    |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 10    | NO     |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 496   | YES    |
 
