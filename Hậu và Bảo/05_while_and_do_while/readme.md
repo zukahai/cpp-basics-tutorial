@@ -139,3 +139,39 @@ Số 123 có 3 chữ số.
 | Input | Output |
 |-------|--------|
 | 12039483     | 8      |
+
+## Bài 4: Số đảo ngược
+
+Viết chương trình nhập vào một số nguyên dương `n` và in ra số đảo ngược của `n`.
+
+**Đầu vào**:
+
+- Một số nguyên dương `n` (0 ≤ n ≤ 10^9)
+
+**Đầu ra**:
+
+- Một số nguyên là số đảo ngược của `n`.
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 123   | 321    |
+
+**Giải thích**:
+
+Số đảo ngược của 123 là 321.
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 12039483     | 38493021      |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 1000  | 1      |
