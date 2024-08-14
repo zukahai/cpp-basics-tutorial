@@ -175,3 +175,38 @@ Số đảo ngược của 123 là 321.
 | Input | Output |
 |-------|--------|
 | 1000  | 1      |
+
+## Bài 5: Số đối xứng
+
+Viết chương trình nhập vào một số nguyên dương `n` và kiểm tra xem `n` có phải là số đối xứng hay không.
+
+Số đối xứng là số mà khi đọc từ trái sang phải hoặc từ phải sang trái đều giống nhau. Ví dụ: 121, 12321, 123321, 332233
+
+**Đầu vào**:
+
+- Một số nguyên dương `n` (0 ≤ n ≤ 10^9)
+
+**Đầu ra**:
+
+- In ra "YES" nếu `n` là số đối xứng, ngược lại in ra "NO".
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 12321 | YES    |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 12345 | NO     |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 1331 | YES     |
+
