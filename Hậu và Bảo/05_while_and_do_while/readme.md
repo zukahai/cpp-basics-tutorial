@@ -104,6 +104,38 @@ Số ngày ít nhất để số tiền của Hậu lớn hơn hoặc bằng s�
 Số ngày ít nhất để số tiền của Hậu lớn hơn hoặc bằng số tiền của Bảo là 1 ngày.
 
 
+## Bài 3: Số lượng chữ số
 
+Viết chương trình nhập vào một số nguyên dương `n` và in ra số lượng chữ số của `n`.
 
+**Đầu vào**:
 
+- Một số nguyên dương `n` (0 ≤ n ≤ 10^9)
+
+**Đầu ra**:
+
+- Một số nguyên là số lượng chữ số của `n`.
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 123   | 3      |
+
+**Giải thích**:
+
+Số 123 có 3 chữ số.
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 1000  | 4      |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 12039483     | 8      |
