@@ -398,3 +398,38 @@ Vì 6 = 1 + 2 + 3, 28 = 1 + 2 + 4 + 7 + 14
 |-------|--------|
 | 496   | YES    |
 
+## Bài 11: Thời gian
+
+Hiện tại đang là `h1` giờ `m1` phút. Tính cần ít nhất bao nhiêu phút nữa để đến `h2` giờ `m2` phút. Biết rằng `h2` >= `h1`
+
+**Đầu vào**:
+
+- Bốn số nguyên `h1`, `m1`, `h2`, `m2` (0 ≤ h1, h2 ≤ 23, 0 ≤ m1, m2 ≤ 59)
+
+**Đầu ra**:
+
+- Một số nguyên là số phút cần ít nhất để đến `h2` giờ `m2` phút.
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 10 30 11 0 | 30     |
+
+**Giải thích**:
+
+Hiện tại là 10 giờ 30 phút. Cần 30 phút nữa để đến 11 giờ 0 phút.
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 7 50 9 40 | 110    |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 10 40 11 20 | 40     |
