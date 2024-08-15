@@ -684,4 +684,45 @@ Dãy số đối xứng là dãy số mà phần tử đầu tiên bằng phần
 | --- | --- |
 | 5<br>1 2 3 4 5 | NO |
 
+## Bài 20: Giá trị lớn nhất thứ k trong mảng
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+
+Nhập vào n số nguyên từ bàn phím và lưu vào mảng a.
+
+Nhập vào một số nguyên dương k từ bàn phím.
+
+In ra màn hình giá trị lớn nhất thứ k trong mảng.
+
+Nếu không tồn tại giá trị lớn nhất thứ k thì in ra -1.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>6</sup>)
+- Dòng thứ hai chứa n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (0 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>)
+- Dòng cuối cùng chứa số nguyên k (1 ≤ k ≤ n)
+
+**Đầu ra**
+
+Giá trị lớn nhất thứ k trong mảng.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 2 3 4 5<br>2 | 4 |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 2 2 3 3<br>3 | 1 |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 1 1 1 1<br>2 | -1 |
 
