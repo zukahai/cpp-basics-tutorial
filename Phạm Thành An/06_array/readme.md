@@ -496,3 +496,72 @@ In ra màn hình "YES" nếu x là số nguyên, ngược lại in ra "NO".
 | --- | --- |
 | 100.000   | YES |
 
+## Bài 15: Kiểm tra xem một số nguyên có phải là số chính phương không
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+
+In ra màn hình "YES" nếu n là số chính phương, ngược lại in ra "NO".
+
+Số chính phương là số mà căn bậc 2 của nó là một số nguyên.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>9</sup>)
+
+**Đầu ra**
+
+"YES" nếu n là số chính phương, ngược lại in ra "NO".
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 4 | YES |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 10 | NO |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 100   | YES |
+
+## Bài 16: Đếm số ước số của một số nguyên
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+
+In ra màn hình số lượng ước số của n.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>14</sup>)
+
+**Đầu ra**
+
+Số lượng ước số của n.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 6 | 4 |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 10 | 4 |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 100   | 9 |
