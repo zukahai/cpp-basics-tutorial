@@ -565,3 +565,41 @@ Số lượng ước số của n.
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 100   | 9 |
+
+## Bài 17: Kiểm tra dãy số nguyên tố
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+
+Nhập vào n số nguyên từ bàn phím và lưu vào mảng a.
+
+In ra màn hình "YES" nếu mảng a là dãy số chứa các số nguyên tố, ngược lại in ra "NO".
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10 <sup>6</sup>)
+
+- Dòng thứ hai chứa n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (0 ≤ |a<sub>i|</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra**
+
+"YES" nếu mảng a là dãy số chứa các số nguyên tố, ngược lại in ra "NO".
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>2 3 5 7 11 | YES |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 2 3 4 5 | NO |
+
+
+
+
+
+
