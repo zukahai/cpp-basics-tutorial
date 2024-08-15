@@ -684,17 +684,13 @@ Dãy số đối xứng là dãy số mà phần tử đầu tiên bằng phần
 | --- | --- |
 | 5<br>1 2 3 4 5 | NO |
 
-## Bài 20: Giá trị lớn nhất thứ k trong mảng
+## Bài 20: Giá trị lớn thứ k trong mảng
 
 Nhập vào một số nguyên dương n từ bàn phím.<br>
 
 Nhập vào n số nguyên từ bàn phím và lưu vào mảng a.
 
-Nhập vào một số nguyên dương k từ bàn phím.
-
-In ra màn hình giá trị lớn nhất thứ k trong mảng.
-
-Nếu không tồn tại giá trị lớn nhất thứ k thì in ra -1.
+Nhập vào một số nguyên dương k từ bàn phím. In ra màn hình giá trị lớn thứ k trong mảng. Nếu không tồn tại giá trị lớn thứ k thì in ra -1.
 
 **Đầu vào**
 
@@ -704,7 +700,7 @@ Nếu không tồn tại giá trị lớn nhất thứ k thì in ra -1.
 
 **Đầu ra**
 
-Giá trị lớn nhất thứ k trong mảng.
+Giá trị lớn thứ k trong mảng.
 
 ### Ví dụ:
 
