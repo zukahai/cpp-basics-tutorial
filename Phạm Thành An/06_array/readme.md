@@ -428,7 +428,7 @@ Giá trị lớn thứ hai trong mảng.
 | --- | --- |
 | 5<br> 5 2 6 8 8 | 6 |
 
-### Bài 13: Danh sách ước số của một số nguyên
+## Bài 13: Danh sách ước số của một số nguyên
 
 Nhập vào một số nguyên dương n từ bàn phím.<br>
 
@@ -461,4 +461,38 @@ Các ước số của n, các ước số cách nhau bởi dấu cách và sắ
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 100 | 1 2 4 5 10 20 25 50 100 |
+
+## Bài 14: Kiểm tra xem một số thực có phải là số nguyên không
+
+Nhập vào một số thực x từ bàn phím.<br>
+
+In ra màn hình "YES" nếu x là số nguyên, ngược lại in ra "NO".
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số thực x (-10<sup>9</sup> ≤ x ≤ 10<sup>9</sup>)
+
+**Đầu ra**
+
+"YES" nếu x là số nguyên, ngược lại in ra "NO".
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 6.0 | YES |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 10.5 | NO |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 100.000   | YES |
 
