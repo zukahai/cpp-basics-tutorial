@@ -427,3 +427,38 @@ Giá trị lớn thứ hai trong mảng.
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 5<br> 5 2 6 8 8 | 6 |
+
+### Bài 13: Danh sách ước số của một số nguyên
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+
+In ra màn hình các ước số của n, các ước số cách nhau bởi dấu cách.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>14</sup>)
+
+**Đầu ra**
+
+Các ước số của n, các ước số cách nhau bởi dấu cách và sắp xếp tăng dần.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 6 | 1 2 3 6 |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 10 | 1 2 5 10 |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 100 | 1 2 4 5 10 20 25 50 100 |
+
