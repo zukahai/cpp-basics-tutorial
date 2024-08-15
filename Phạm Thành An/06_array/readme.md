@@ -726,3 +726,42 @@ Giá trị lớn nhất thứ k trong mảng.
 | --- | --- |
 | 5<br>1 1 1 1 1<br>2 | -1 |
 
+## Bài 21: Dãy số chính phương
+
+Nhập vào một số nguyên dương n từ bàn phím.<br>
+
+Nhập vào n số nguyên từ bàn phím và lưu vào mảng a.
+
+Mỗi số trong mảng a hãy tìm số chính phương nhỏ nhất lớn hơn hoặc bằng số đó.
+
+In ra danh sách trên một dòng, các số cách nhau bởi dấu cách.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>6</sup>)
+- Dòng thứ hai chứa n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (0 ≤ a<sub>i</sub> ≤ 10<sup>16</sup>)
+
+**Đầu ra**
+
+Danh sách các số chính phương nhỏ nhất lớn hơn hoặc bằng số đó, các số cách nhau bởi dấu cách.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 2 3 4 5 | 1 4 4 4 9 |
+
+#### Ví dụ 2:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>5 6 2 10 17 | 9 9 4 16 25 |
+
+#### Ví dụ 3:
+
+| Đầu vào | Đầu ra |
+| --- | --- |
+| 5<br>1 1 1 1 1 | 1 1 1 1 1 |
+
