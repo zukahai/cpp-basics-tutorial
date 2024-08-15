@@ -649,13 +649,3 @@ Dãy số giảm dần là dãy số mà mỗi phần tử sau nhỏ hơn phần
 | Đầu vào | Đầu ra |
 | --- | --- |
 | 5<br>1 1 3 7 8 | NO |
-
-
-
-
-
-
-
-
-
-
