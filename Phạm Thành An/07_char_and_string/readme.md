@@ -367,4 +367,70 @@ Hãy in ra từ dài nhất trong chuỗi `s`. Nếu có nhiều từ cùng đ�
 |-------|--------|
 | abc | abc  |
 
+## Bài 11: Các ký tự xuất hiện trong chuỗi
 
+Nhập vào một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100).<br> Gồm các ký tự từ 'a' đến 'z'.<br>
+
+In ra các ký tự xuất hiện trong s, kèm theo số lần xuất hiện của ký tự đó. Thứ tự in ra các ký tự theo thứ tự từ điển.
+
+**Input:**
+
+- Một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100)
+
+**Output:**
+
+- In ra các ký tự xuất hiện trong s, kèm theo số lần xuất hiện của ký tự đó. Thứ tự in ra các ký tự theo thứ tự từ điển. Mỗi ký tự xuất hiện trên một dòng.
+
+### Ví dụ
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| abcabcabc   | a 3<br> b 3<br> c 3  |
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| hello | e 1<br> h 1<br> l 2<br> o 1  |
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| aaa | a 3  |
+
+## Bài 12: Chuỗi nhị phân
+
+Nhập vào một số nguyên dương N (1 ≤ N ≤ 10^18).<br>
+
+Hãy in ra chuỗi nhị phân của số N.
+
+**Input:**
+
+- Một số nguyên dương N (1 ≤ N ≤ 10^18)
+
+**Output:**
+
+- In ra chuỗi nhị phân của số N.
+
+### Ví dụ
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| 4   | 100  |
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| 5 | 101  |
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| 10 | 1010  |
