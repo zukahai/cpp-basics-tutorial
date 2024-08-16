@@ -401,6 +401,23 @@ In ra các ký tự xuất hiện trong s, kèm theo số lần xuất hiện c�
 |-------|--------|
 | aaa | a 3  |
 
+```text
+------------------------------
+s = "abcaab"
+
+vector<int> dd(255, 0);
+
+dd[ch]: Dùng để đếm số lần xuất hiện của ký tự ch trong chuỗi s
+
+for (int i = 0; i < s.size(); i++) {
+    dd[s[i]]++;
+}
+
+d['a'] = 3
+d['b'] = 2
+d['c'] = 1
+```
+
 ## Bài 12: Chuỗi nhị phân
 
 Nhập vào một số nguyên dương N (1 ≤ N ≤ 10^18).<br>
@@ -434,3 +451,5 @@ Hãy in ra chuỗi nhị phân của số N.
 | Input | Output |
 |-------|--------|
 | 10 | 1010  |
+
+
