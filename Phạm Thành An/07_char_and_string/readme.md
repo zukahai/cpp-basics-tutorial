@@ -294,3 +294,77 @@ Hãy in ra các từ trong chuỗi `s`. Mỗi từ trên một dòng.
 | Input | Output |
 |-------|--------|
 |Khoa hoc lap trinh C++ | Khoa<br> hoc<br> lap<br> trinh<br> C++  |
+
+## Bài 9: Kiểm tra chuỗi đối xứng
+
+Nhập vào một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100).<br>
+
+Hãy kiểm tra xem chuỗi `s` có phải là chuỗi đối xứng hay không.
+
+Chuỗi đối xứng là chuỗi mà khi đọc từ trái sang phải hoặc từ phải sang trái đều giống nhau.
+
+**Input:**
+
+- Một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100)
+
+**Output:**
+
+- In ra `YES` nếu chuỗi `s` là chuỗi đối xứng.
+
+- In ra `NO` nếu chuỗi `s` không phải là chuỗi đối xứng.
+
+### Ví dụ
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| abcba   | YES  |
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| abccba | YES  |
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| abc | NO  |
+
+## Bài 10: In ra từ dài nhất
+
+Nhập vào một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100).<br>
+
+Hãy in ra từ dài nhất trong chuỗi `s`. Nếu có nhiều từ cùng độ dài nhất thì in ra từ đầu tiên.
+
+**Input:**
+
+- Một chuỗi ký tự `s` (độ dài chuỗi `s` không quá 100)
+
+**Output:**
+
+- In ra từ dài nhất trong chuỗi `s`.
+
+### Ví dụ
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| Xin chao  |  chao  |
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|----------|
+| Khoa hoc lap trinh |  trinh  |
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| abc | abc  |
+
+
