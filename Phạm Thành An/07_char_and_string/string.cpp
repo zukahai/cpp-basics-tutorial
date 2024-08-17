@@ -9,3 +9,12 @@ int main() {
     // stof() converts a string to a float
     // stoll() converts a string to a long long
 }
+
+// bignum
+/*
+a, b <= 10^100
+
+n! (n < 10^6)
+Đáp án lấy modulo 10^9 + 7
+
+*/
