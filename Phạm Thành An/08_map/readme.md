@@ -5,7 +5,7 @@ Cho một dãy số nguyên, bạn hãy viết chương trình để tìm ra s�
 **Đầu vào**:
 
 - Dòng đầu tiên chứa một số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)  - số lượng phần tử của dãy số.
-- Dòng thứ hai chứa n số nguyên a1, a2, ..., an (-10<sup>9</sup> ≤ ai ≤ 10<sup>9</sup>) - dãy số nguyên.
+- Dòng thứ hai chứa n số nguyên a1, a2, ..., an (-10<sup>18</sup> ≤ ai ≤ 10<sup>18</sup>) - dãy số nguyên.
 
 **Đầu ra**:
 
