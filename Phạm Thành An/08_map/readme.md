@@ -92,3 +92,9 @@ Hãy tìm ra các học sinh vừa nằm trong đội tuyển tin vừa nằm tr
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 6 7 8 9 10 | -1 |
+
+## Bài 4: Quay thưởng
+
+<p align="center">
+    <img src="./quaythuong.jpg" width="400">
+</p>
