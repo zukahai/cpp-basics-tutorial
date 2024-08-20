@@ -24,8 +24,7 @@ Truy cập email của bạn, mở email từ hệ thống và chọn **Xác nh�
 
 ![alt text](image-1.png)
 
-Bấm vào đương link để kích hoạt tài khoản theo hướng dẫn của email.
+Bấm vào đường link để kích hoạt tài khoản theo hướng dẫn của email.
 
-
-Truy cập trang web: http://oj.duong3982.com/accounts/login/?next= 
+Cuối cùng, truy cập trang web: http://oj.duong3982.com/accounts/login/?next= 
 để đăng nhập vào hệ thống.
