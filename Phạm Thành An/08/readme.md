@@ -1,0 +1,27 @@
+## Bài 1: Số xuất hiện nhiều nhất trong dãy
+
+Cho một dãy số nguyên, bạn hãy viết chương trình để tìm ra số xuất hiện nhiều nhất trong dãy số đó. Nếu có nhiều số xuất hiện cùng số lần thì chọn số nhỏ nhất.
+
+**Đầu vào**:
+
+- Dòng đầu tiên chứa một số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)  - số lượng phần tử của dãy số.
+- Dòng thứ hai chứa n số nguyên a1, a2, ..., an (-10<sup>9</sup> ≤ ai ≤ 10<sup>9</sup>) - dãy số nguyên.
+
+**Đầu ra**:
+
+- In ra số nguyên xuất hiện nhiều nhất trong dãy số.
+
+**Ví dụ**:
+
+**Ví dụ 1**
+
+| Input | Output |
+|-------|--------|
+| 6 <br> 1 2 2 1 1 6 | 1 |
+
+**Ví dụ 2**
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 3 2 2 3 | 2 | 
+
