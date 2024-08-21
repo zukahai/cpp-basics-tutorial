@@ -25,14 +25,43 @@ $commit_messages = @(
     "Improved readability of",
     "Added comments to",
     "Revised implementation of",
-    "Resolved bugs in"
+    "Resolved bugs in",
+    "Improved memory management in",
+    "Streamlined logic for",
+    "Enhanced security features in",
+    "Updated user interface for",
+    "Refined algorithms in",
+    "Boosted efficiency of",
+    "Adjusted configuration for",
+    "Updated documentation for",
+    "Integrated new features into",
+    "Optimized resource usage in",
+    "Enhanced compatibility with",
+    "Resolved merge conflicts in",
+    "Refined error messages for",
+    "Refactored loops and conditions in",
+    "Enhanced readability and maintainability of",
+    "Improved logging in",
+    "Addressed edge cases in",
+    "Updated versioning for",
+    "Enhanced modularity of",
+    "Consolidated redundant code in",
+    "Polished final touches on",
+    "Enhanced stability of",
+    "Optimized build process for",
+    "Refined user interaction with",
+    "Updated localization for",
+    "Reworked configuration management in",
+    "Increased robustness of",
+    "Improved data validation in",
+    "Enhanced testing coverage for"
 )
 
 foreach ($file in $untracked_files) {
     if ($file -ne "") {
         try {
             # Chuyển đổi dấu gạch chéo thành gạch chéo ngược
-            $valid_file = $file -replace '^.*03_for_loop', '03_for_loop'
+            $valid_file = $file -replace '^.*06_array_1D', '06_array_1D'
 
             Write-Output "Processing file: $valid_file"
 

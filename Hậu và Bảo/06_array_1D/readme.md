@@ -436,7 +436,7 @@ Giá trị lớn thứ hai trong mảng.
 
 Nhập vào một số nguyên dương **n** từ bàn phím.<br>
 
-Nhập vào **n** số nguyên từ bàn phím và lưu vào mảng **a**
+Nhập vào **n** số nguyên từ bàn phím và lưu vào mảng **a
 
 In ra giá trị lớn thứ 3 trong mảng. Nếu không có giá trị lớn thứ 3 thì in ra "No third largest element".
 
@@ -469,3 +469,5 @@ Giá trị lớn thứ 3 trong mảng hoặc "No third largest element".
 | Đầu vào | Đầu ra |
 | :--- | :--- |
 | 5<br>1 1 1 1 1 | No third largest element |
+
+
