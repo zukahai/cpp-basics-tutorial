@@ -245,7 +245,8 @@ In ra màn hình chữ số cuối cùng của số `n`.
 
 **Gợi ý:**
 
-- Để lấy chữ số cuối cùng của một số nguyên `n`, ta có thể lấy phần dư của `n` cho 10.
+- Để lấy chữ số cuối cùng của một số nguyên `n`, ta có thể lấy phần dư của `n` cho 10.<br>
+Ví dụ 123 % 10 = 3, 456 % 10 = 6, 789 % 10 = 9
 
 #### Ví dụ:
 
