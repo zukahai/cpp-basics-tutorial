@@ -85,6 +85,12 @@ Không có.
 
 **Đầu ra**
 
+Các số từ 10 đến 1, mỗi số in ra một dòng.
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| | 10<br>9<br>8<br>7<br>6<br>5<br>4<br>3<br>2<br>1 |
+
 **Bài làm mẫu:**
 
 ```cpp
@@ -98,12 +104,6 @@ int main() {
     }
 }
 ```
-
-Các số từ 10 đến 1, mỗi số in ra một dòng.
-
-| Đầu vào | Đầu ra |
-| :--- | :--- |
-| | 10<br>9<br>8<br>7<br>6<br>5<br>4<br>3<br>2<br>1 |
 
 ### Bài 3: In ra các số từ 1 đến n
 
@@ -389,7 +389,7 @@ Các số chia hết cho 2 hoặc 3 từ 1 đến n, mỗi số in ra một dòn
 
 | Đầu vào | Đầu ra |
 | :--- | :--- |
-| 10 | 2<br>3<br>4<br>6<br>8<br>9 |
+| 10 | 2<br>3<br>4<br>6<br>8<br>9<br>10|
 
 **Bài làm mẫu:**
 
