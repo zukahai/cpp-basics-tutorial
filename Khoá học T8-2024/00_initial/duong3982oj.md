@@ -26,5 +26,12 @@ Truy cập email của bạn, mở email từ hệ thống và chọn **Xác nh�
 
 Bấm vào đường link để kích hoạt tài khoản theo hướng dẫn của email.
 
-Cuối cùng, truy cập trang web: http://oj.duong3982.com/accounts/login/?next= 
+Tiếp theo cần đăng nhập hệ thông, truy cập trang web: http://oj.duong3982.com/accounts/login/?next= 
 để đăng nhập vào hệ thống.
+
+Yêu cầu tham gia tổ chức tại: https://oj.duong3982.com/organization/laptrinhcppcanban
+
+Chờ quản trị viên chấp nhận yêu cầu tham gia tổ chức.
+
+Sau khi đã được chấp nhận, tham gia làm bài tập tại:
+https://oj.duong3982.com/contest/laptrinhcppcanban_all
