@@ -24,7 +24,7 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Bài tập trên OJ: [Bài tập buổi 2](https://oj.duong3982.com/contest/laptrinhcppcanban_02)
 
-- Bafi tập offline (Không tự chấm bài): [Bài tập offline buổi 2](./02_if_else/readme.md)
+- Bài tập offline (Không tự chấm bài): [Bài tập offline buổi 2](./02_if_else/readme.md)
 
 
 
