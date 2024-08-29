@@ -1,95 +1,371 @@
-# Câu lệnh điều kiện
+# Bài tập if else
 
-## Câu lệnh if else
+## Bài 1: Kiểm tra bằng 10
 
-### Câu lệnh if
+Hãy nhập vào một số nguyên và kiểm tra xem số đó có bằng 10 hay không.
 
-Câu lệnh if dùng để kiểm tra một điều kiện nào đó, nếu điều kiện đó đúng thì thực hiện một hành động nào đó.
+**Đầu vào:**
 
-Cú pháp:
+- Một số nguyên `n`
 
-```cpp
+**Đầu ra:**
 
-if (điều kiện)
-{
-    // Thực hiện hành động nếu điều kiện đúng
-}
+- In ra màn hình `n` có bằng 10 hay không, Nếu có in ra `n bang 10`, ngược lại in ra `n khong ban 10`
 
-```
+### Ví dụ:
 
-Ví dụ:
+#### Ví dụ 1:
 
-```cpp
+| Input | Output                  |
+|:-------|:-----------------------|
+| 10    | 10 bang 10              |
 
-int a = 5;
+#### Ví dụ 2:
 
-if (a > 0)
-{
-    cout << "a la so duong";
-}
+| Input | Output                  |
+|:-------|:-----------------------|
+| 5     | 5 khong bang 10         |
 
-```
-
-### Câu lệnh if else
-
-Câu lệnh if else dùng để kiểm tra một điều kiện nào đó, nếu điều kiện đó đúng thì thực hiện một hành động nào đó, ngược lại thì thực hiện một hành động khác.
-
-Cú pháp:
+**Bài làm mẫu:**
 
 ```cpp
+#include <bits/stdc++.h>
 
-if (điều kiện)
-{
-    // Thực hiện hành động nếu điều kiện đúng
-}
-else
-{
-    // Thực hiện hành động nếu điều kiện sai
-}
+using namespace std;
 
+int main() {
+    int n;
+    cin >> n;
+
+    if (n == 10) {
+        cout << n << " bang 10";
+    } else {
+        cout << n << " khong bang 10";
+    }
+}
 ```
 
-Ví dụ:
+## Bài 2: Kiểm tra số dương
+
+Hãy nhập vào một số nguyên và kiểm tra xem số đó có phải là số dương hay không.<br>
+Nếu là số dương thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Một số nguyên `n`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu `n` là số dương, ngược lại in ra `NO`
+
+**Gợi ý:**
+
+- Số dương là số lớn hơn 0
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 10    | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| -5    | NO                      |
+
+**Bài làm mẫu:**
 
 ```cpp
+#include <bits/stdc++.h>
 
-int a = 5;
+using namespace std;
 
-if (a > 0)
-{
-    cout << "a la so duong";
+int main() {
+    int n;
+    cin >> n;
+
+    if (n > 0) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
 }
-else
-{
-    cout << "a la so am";
-}
-
 ```
 
-## Các kiểu so sánh
 
-- So sánh bằng: `==`
-- So sánh khác: `!=`
-- So sánh lớn hơn: `>`
-- So sánh nhỏ hơn: `<`
-- So sánh lớn hơn hoặc bằng: `>=`
-- So sánh nhỏ hơn hoặc bằng: `<=`
+## Bài 3: Kiểm tra số chẵn lẻ
 
-## Các kiểu kết hợp điều kiện
+Hãy nhập vào một số nguyên và kiểm tra xem số đó có phải là số chẵn hay số lẻ.<br>
+Nếu là số chẵn thì in ra `Even`, ngược lại in ra `Odd`
 
-- Và: `&&`
-- Hoặc: `||`
+**Đầu vào:**
 
-Ví dụ:
+- Một số nguyên `n`
+
+**Đầu ra:**
+
+- In ra màn hình `Even` nếu `n` là số chẵn, ngược lại in ra `Odd`
+
+**Gợi ý:**
+
+- Số chẵn là số chia hết cho 2, mình sẽ kiểm tra xem số đó chia hết cho 2 hay không bằng cách sử dụng toán tử `%`
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 10    | Even                    |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 5     | Odd    |
+
+**Bài làm mẫu:**
 
 ```cpp
+#include <bits/stdc++.h>
 
-int a = 5;
+using namespace std;
 
-if (a > 0 && a % 2 == 0)
-{
-    cout << "a la so duong chan";
+int main() {
+    int n;
+    cin >> n;
+
+    if (n % 2 == 0) {
+        cout << "Even";
+    } else {
+        cout << "Odd";
+    }
 }
-
 ```
 
+## Bài 4: Số lớn hơn
+
+Hãy nhập vào 2 số nguyên, tìm và in ra giá trị lớn hơn trong 2 số đó.
+
+**Đầu vào:**
+
+- Hai số nguyên `a`, `b`
+
+**Đầu ra:**
+
+- In ra màn hình số lớn hơn trong 2 số `a` và `b`
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 5 10     | 10                      |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 10 5    | 10                      |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    if (a > b) {
+        cout << a;
+    } else {
+        cout << b;
+    }
+}
+```
+
+
+## Bài 5: Số có 3 chữ số
+
+Hãy nhập vào một số tự nhiên và kiểm tra xem số đó có phải là số có 3 chữ số hay không.<br>
+Nếu là số có 3 chữ số thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Một số tự nhiên `n`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu `n` là số có 3 chữ số, ngược lại in ra `NO`
+
+**Gợi ý:**
+
+- Số có 3 chữ số là số lớn hơn hoặc bằng 100 và nhỏ hơn 1000
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 249   | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 35    | NO                      |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    if (n >= 100 && n <= 999) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
+
+## Bài 6: Hình vuông
+
+Hãy nhập vào 2 số nguyên dương `a`, `b` là chiều dài và chiều rộng của hình chữ nhật, kiểm tra xem hình chữ nhật đó có phải là hình vuông hay không.<br>
+Nếu là hình vuông thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Hai số nguyên dương `a`, `b`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu hình chữ nhật có chiều dài và chiều rộng bằng nhau, ngược lại in ra `NO`
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 5 5   | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 10 5  | NO                      |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    if (a == b) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
+
+## Bài 7: Ba cạnh của tam giác
+
+Hãy nhập vào 3 số nguyên dương `a`, `b`, `c`, hãy kiểm tra xem 3 số đó có phải là 3 cạnh của một tam giác hay không.<br>
+Nếu là 3 cạnh của một tam giác thì in ra `YES`, ngược lại in ra `NO`
+
+**Đầu vào:**
+
+- Ba số nguyên dương `a`, `b`, `c`
+
+**Đầu ra:**
+
+- In ra màn hình `YES` nếu 3 số `a`, `b`, `c` là 3 cạnh của một tam giác, ngược lại in ra `NO`
+
+**Gợi ý:**
+
+- Để 3 số `a`, `b`, `c` là 3 cạnh của một tam giác thì tổng của 2 số bất kỳ phải lớn hơn số còn lại, và 3 số phải lớn hơn 0
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 4 5 8 | YES                     |
+
+#### Ví dụ 2:
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 1 2 4 | NO                      |
+
+**Bài làm mẫu:**
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    if (a + b > c && a + c > b && b + c > a) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+}
+```
+
+## Bài 8: So sánh 2 số
+
+Hãy nhập vào 2 số nguyên `a`, `b`, so sánh 2 số đó và in ra kết quả so sánh.
+
+**Đầu vào:**
+
+- Hai số nguyên `a`, `b`
+
+**Đầu ra:**
+
+- In ra màn hình kết quả so sánh giữa 2 số `a`, `b`, nếu `a` lớn hơn `b` in ra `a > b`, nếu `a` bé hơn `b` in ra `a < b`, ngược lại in ra `a = b`
+
+#### Ví dụ
+
+##### Ví dụ 1
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 5 10  | 5 < 10                  |
+
+##### Ví dụ 2
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 10 5  | 10 > 5                  |
+
+##### Ví dụ 3
+
+| Input | Output                  |
+|:-------|:-----------------------|
+| 5 5   | 5 = 5                   |
