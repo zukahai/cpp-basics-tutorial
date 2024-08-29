@@ -26,5 +26,6 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Bài tập offline (Không tự chấm bài): [Bài tập offline buổi 2](./02_if_else/readme.md)
 
+- Bài giải bài tập: [Bài giải buổi 2](./02_if_else/exs/)
 
 
