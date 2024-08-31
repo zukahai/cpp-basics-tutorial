@@ -17,19 +17,6 @@ Các số từ 1 đến 10, mỗi số in ra một dòng.
 | :--- | :--- |
 | | 1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10 |
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    for (int i = 1; i <= 10; i++) {
-        cout << i << endl;
-    }
-}
-```
 
 ### Bài 2: In ra các số từ 10 đến 1
 
@@ -46,20 +33,6 @@ Các số từ 10 đến 1, mỗi số in ra một dòng.
 | Đầu vào | Đầu ra |
 | :--- | :--- |
 | | 10<br>9<br>8<br>7<br>6<br>5<br>4<br>3<br>2<br>1 |
-
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    for (int i = 10; i >= 1; i--) {
-        cout << i << endl;
-    }
-}
-```
 
 ### Bài 3: In ra các số từ 1 đến n
 
@@ -86,23 +59,6 @@ Các số từ 1 đến n, mỗi số in ra một dòng.
 | :--- | :--- |
 | 7 | 1<br>2<br>3<br>4<br>5<br>6<br>7 |
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        cout << i << endl;
-    }
-}
-```
-
 ### Bài 4: In ra các số từ n đến 1
 
 Viết chương trình in ra màn hình các số từ n đến 1.<br>
@@ -128,22 +84,6 @@ Các số từ n đến 1, mỗi số in ra một dòng.
 | :--- | :--- |
 | 7 | 7<br>6<br>5<br>4<br>3<br>2<br>1 |
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = n; i >= 1; i--) {
-        cout << i << endl;
-    }
-}
-```
 
 ### Bài 5: Tính tổng các số từ 1 đến n
 
@@ -178,25 +118,6 @@ Vì `1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55`.
 Để giải bài toán này, bạn cần sử dụng vòng lặp for để duyệt qua các số từ 1 đến n.<br>
 Trong mỗi lần duyệt, bạn cần cộng giá trị của biến `i` vào biến tổng.
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    int sum = 0;
-    for (int i = 1; i <= n; i++) {
-        sum += i;
-    }
-
-    cout << sum << endl;
-}
-```
 
 ### Bài 6: In ra các số chẵn trong khoảng từ 1 đến n
 
@@ -223,43 +144,6 @@ Các số chẵn từ 1 đến n, mỗi số in ra một dòng.
 | :--- | :--- |
 | 7 | 2<br>4<br>6 |
 
-**Bài làm mẫu:**
-
-Cách 1: For từ 1 tới n, kiểm tra số chẵn.
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        if (i % 2 == 0) {
-            cout << i << endl;
-        }
-    }
-}
-```
-
-Cách 2: For từ 2 tới n, bước nhảy là 2.
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 2; i <= n; i += 2) {
-        cout << i << endl;
-    }
-}
-```
 
 ### Bài 7: In ra các số lẻ trong khoảng từ 1 đến n
 
@@ -285,43 +169,6 @@ Các số lẻ từ 1 đến n, mỗi số in ra một dòng.
 | :--- | :--- |
 | 7 | 1<br>3<br>5<br>7 |
 
-**Bài làm mẫu:**
-
-Cách 1: For từ 1 tới n, kiểm tra số lẻ.
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        if (i % 2 != 0) {
-            cout << i << endl;
-        }
-    }
-}
-```
-
-Cách 2: For từ 1 tới n, bước nhảy là 2.
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i += 2) {
-        cout << i << endl;
-    }
-}
-```
 
 ### Bài 8: Các số chia hết cho 2 hoặc 3 trong khoảng từ 1 đến n
 
@@ -346,26 +193,6 @@ Các số chia hết cho 2 hoặc 3 từ 1 đến n, mỗi số in ra một dòn
 | Đầu vào | Đầu ra |
 | :--- | :--- |
 | 10 | 2<br>3<br>4<br>6<br>8<br>9<br>10|
-
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        if (i % 2 == 0 || i % 3 == 0) {
-            cout << i << endl;
-        }
-    }
-}
-```
-
 
 ### Bài 9: Tính tổng các số chia hết cho 3 trong khoảng từ 1 đến n
 
@@ -395,27 +222,6 @@ Vì `3 + 6 + 9 = 18`.
 
 Vì `3 + 6 + 9 + 12 + 15 = 45`.
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    int sum = 0;
-    for (int i = 1; i <= n; i++) {
-        if (i % 3 == 0) {
-            sum += i;
-        }
-    }
-
-    cout << sum << endl;
-}
-```
 
 ### Bài 10: Các ước của N
 
@@ -450,24 +256,6 @@ Các ước của N, mỗi ước in ra một dòng.
 | :--- | :--- |
 | 15 | 1<br>3<br>5<br>15 |
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        if (n % i == 0) {
-            cout << i << endl;
-        }
-    }
-}
-```
 
 ### Bài 11: Tính N giai thừa
 
@@ -507,29 +295,6 @@ In ra giai thừa của N. (Xem ví dụ để hiểu rõ hơn)
 | :--- | :--- |
 | 2 | 1 * 2 = 2 |
 
-**Bài làm mẫu:**
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    int factorial = 1;
-    for (int i = 1; i <= n; i++) {
-        factorial *= i;
-        cout << i;
-        if (i < n) {
-            cout << " * ";
-        }
-    }
-
-    cout << " = " << factorial;
-}
-```
 
 ### Bài 12: Tổng chu vi và diện tích
 
