@@ -28,4 +28,10 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Bài giải bài tập: [Bài giải buổi 2](./02_if_else/exs/)
 
+### Buổi 4: Vòng lặp for
+
+- Bài tập [Bài tập buổi 4](./04_training_loop/readme.md)
+
+- Bài tập nâng cao [Bài tập nâng cao buổi 4](../Khoá%20học/04_training_for_loop/readme.md)
+
 
