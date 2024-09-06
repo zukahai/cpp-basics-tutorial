@@ -1,0 +1,3 @@
+Khai báo biên a là int a
+gán a = 20
+In ra gia trị của a và 2 * a trên 2 dòng

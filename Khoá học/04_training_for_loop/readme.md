@@ -16,7 +16,7 @@ In ra N dòng, Mỗi dòng gôm 2 số, số thứ nhất là giá trị gấp �
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
@@ -28,7 +28,7 @@ In ra N dòng, Mỗi dòng gôm 2 số, số thứ nhất là giá trị gấp �
 - Dòng 3: 3 gấp đôi là 6, gấp ba là 9
 
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -77,13 +77,13 @@ Bang cửu chương của N
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 3     | 3 x 1 = 3 <br> 3 x 2 = 6 <br> 3 x 3 = 9 <br> 3 x 4 = 12 <br> 3 x 5 = 15 <br> 3 x 6 = 18 <br> 3 x 7 = 21 <br> 3 x 8 = 24 <br> 3 x 9 = 27 <br> 3 x 10 = 30 |
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -106,13 +106,13 @@ In ra N dòng, Mỗi dòng gôm 3 số, số thứ nhất là giá trị hiện 
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 3     | 1 1 1 <br> 2 4 8 <br> 3 9 27 |
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -134,14 +134,14 @@ In ra N dấu *
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 3     | *** |
 
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -161,13 +161,13 @@ In ra hình vuông có cạnh dài N dấu *
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 3     | *** <br> *** <br> *** |
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -176,8 +176,8 @@ In ra hình vuông có cạnh dài N dấu *
 **Hint:** Sử dụng 2 vòng lặp for lồng nhau
 
 ```cpp
-for (int i = 0; i < N; i++) {
-    for (int j = 0; j < N; j++) {
+for (int i = 1; i <= N; i++) {
+    for (int j = 1; j <= N; j++) {
         cout << "*";
     }
     cout << endl;
@@ -198,13 +198,13 @@ In ra hình tam giác vuông cân có chiều cao N
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 3     | * <br> ** <br> *** |
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -224,19 +224,19 @@ In ra hình tam giác số có chiều cao N
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 3     | 1 <br> 1 2 <br> 1 2 3 |
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
 | 5     | 1 <br> 1 2 <br> 1 2 3 <br> 1 2 3 4 <br> 1 2 3 4 5 |
 
-#### Ví dụ 3
+**Ví dụ 3:**
 
 | Input | Output |
 |:-------|:--------|
@@ -256,19 +256,19 @@ In ra số lớn nhất trong khoảng từ 0 đến N mà chia hết cho 5
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 7     | 5 |
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
 | 123   | 120 |
 
-#### Ví dụ 3
+**Ví dụ 3:**
 
 | Input | Output |
 |:-------|:--------|
@@ -291,7 +291,7 @@ In ra ước số chung lớn nhất của a và b
 
 ### Ví dụ
 
-#### Ví dụ 1
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
@@ -299,7 +299,7 @@ In ra ước số chung lớn nhất của a và b
 
 *6 và 9 đều chia hết cho 3, 3 là ước số chung lớn nhất của 6 và 9*
 
-#### Ví dụ 2
+**Ví dụ 2:**
 
 | Input | Output |
 |:-------|:--------|
@@ -307,7 +307,7 @@ In ra ước số chung lớn nhất của a và b
 
 *12 và 18 đều chia hết cho 6, 6 là ước số chung lớn nhất của 12 và 18*
 
-#### Ví dụ 3
+**Ví dụ 3:**
 
 | Input | Output |
 |:-------|:--------|

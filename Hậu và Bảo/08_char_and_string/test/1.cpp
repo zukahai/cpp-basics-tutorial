@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-	string s;
-	getline(cin, s);
+//	string s;
+//	getline(cin, s);
 	
 //	if (s[i] >= '0' && s[i] <= '9')
 	/*
@@ -21,6 +21,12 @@ int main() {
 	ket qua la 8
 	
 	*/
+//	
+//	char ch = 'A';
+//	cout << (char)(ch + 1);
+// s = Hau
+// s.size() - 1 -> 0
+	
 }
 
 
