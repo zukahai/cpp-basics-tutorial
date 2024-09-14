@@ -35,4 +35,6 @@ Những bản đã học xong các phần của C++ nên làm bài tập song so
 - Link tham gia làm bài tập: https://oj.vnoi.info/contest/haizuka_vku
 - Video hướng dẫn nộp bài tập tại [đây](https://drive.google.com/file/d/1EhrtN05MIVu4wSYFCDXWSSDBp9HlII1b/view)
 
+Chúc các bạn học tốt, nên nhớ là có khó khăn mới có thành công, cố lên nhé!
+
 
