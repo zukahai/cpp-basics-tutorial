@@ -28,12 +28,12 @@ Những bản đã học xong các phần của C++ nên làm bài tập song so
 
 - Đăng ký tại: https://oj.vnoi.info/accounts/register/
 
-- Video hướng dẫn đăng ký tài khoản ở VN oj tại [đây](https://drive.google.com/file/d/1EhrtN05MIVu4wSYFCDXWSSDBp9HlII1b/view)
+- Video hướng dẫn đăng ký tài khoản ở VN oj tại [đây](https://drive.google.com/file/d/1h7oSnNMDU6aUpK_QbVAmFrIBFi2ZAqN0/view?usp=drive_link)
 
 #### Tham gia làm bài tập
 
 - Link tham gia làm bài tập: https://oj.vnoi.info/contest/haizuka_vku
-- Video hướng dẫn nộp bài tập tại [đây](https://drive.google.com/file/d/1EhrtN05MIVu4wSYFCDXWSSDBp9HlII1b/view)
+- Video hướng dẫn nộp bài tập tại [đây](https://drive.google.com/file/d/1hTWG4gWaeHghAWdGzsWGXWVlHoo2fO67/view?usp=drive_link)
 
 Chúc các bạn học tốt, nên nhớ là có khó khăn mới có thành công, cố lên nhé!
 
