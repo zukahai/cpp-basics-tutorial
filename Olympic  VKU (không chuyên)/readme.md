@@ -1,6 +1,6 @@
 # Tài nguyên Olympic  VKU (không chuyên)
 
-## Dành cho những bạn chưa học xong hoặc chưa học
+## Dành cho những bạn chưa học xong hoặc chưa học C++ căn bản
 
 Để tối ưu thời gian và chủ động trong việc học tập, mình chia sẻ những video dạy C++ căn bản, giúp các bạn tự học tại nhà.
 
