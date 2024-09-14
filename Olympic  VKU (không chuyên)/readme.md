@@ -12,7 +12,7 @@ Tên của bạn
 Mã sinh viên
 ```
 
-Link: [Olympic VKU (không chuyên)](https://drive.google.com/drive/folders/1WqCB3c_LbMJu8qfGIeD6wS2NlLqxbjYC?usp=drive_link)
+Link: [Video C++ căn bản](https://drive.google.com/drive/folders/1WqCB3c_LbMJu8qfGIeD6wS2NlLqxbjYC?usp=drive_link)
 
 Trong quá trình học, nếu có thắc mắc hoặc cần giải đáp, các bạn có thể liên hệ với mình qua nhóm zalo hoặc có thể ib "thầm kín" với mình qua messenger hoặc zalo
 
