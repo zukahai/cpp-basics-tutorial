@@ -1,4 +1,4 @@
-# Tài nguyên Olympic  VKU (không chuyên)
+# Hướng dẫn học qua video
 
 ## Link video các buổi học
 
