@@ -373,7 +373,7 @@ Viết chương trình in ra màn hình các số chia hết cho 2 hoặc 3 tron
 
 **Đầu vào**
 
-Số nguyên dương n (1 ≤ n ≤ 1000).
+Số nguyên dương n (1 ≤ n ≤ 10000).
 
 **Đầu ra**
 
