@@ -11,9 +11,9 @@ int main() {
         cin >> a[i];
     }
 
-    sort(a, a + n);
-
-    for (auto x : a) {
-        cout << x << " ";
+    for (int i = n - 1; i >= 0; i--) {
+        cout << a[i] << " ";
     }
+
+    
 }
