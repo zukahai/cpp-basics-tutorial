@@ -31,3 +31,6 @@
 *.app
 
 .vscode/
+
+# zip file
+*.zip
