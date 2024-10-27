@@ -561,6 +561,34 @@ s chỉ chứa các ký tự chữ cái thường tiếng Anh ('a' ≤ s[i] ≤ 
 
 
 
+## Bài 9: Số lượng số có 2 ước số
+
+Một số **x** được gọi là ước số của **N** nếu **N** chia hết cho x. 
+
+Cho một dãy số nguyên dương gồm **N** phần tử. Hãy đếm số lượng số có đúng 2 ước số trong dãy số đó.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa số nguyên **N** (1 ≤ **N** ≤ 10<sup>3</sub>)
+- Dòng thứ hai chứa **N** số nguyên dương **a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>N-1</sub>** (1 ≤ **a<sub>i</sub>** ≤ 10<sup>6</sub>)
+
+**Đầu ra**
+
+- Số lượng số có đúng 2 ước số trong dãy số đó
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 5 <br> 1 2 11 4 5 | 3 |
+
+**Giải thích**
+
+Có 2 số có đúng 2 ước số là 2, 11 và 5
+
+
+
+
 
 
 
