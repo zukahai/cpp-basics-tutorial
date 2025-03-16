@@ -91,3 +91,4 @@ Ví dụ:
 Kết quả: 4
 
 Có 4 số trong dãy a xuất hiện trong dãy b là 1 1 3 4
+
